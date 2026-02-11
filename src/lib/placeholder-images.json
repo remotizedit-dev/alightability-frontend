@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A welcoming and bright modern clinic reception area.",
+      "imageUrl": "https://images.unsplash.com/photo-1752780479573-7a4ff7f8ebc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xpbmljJTIwcmVjZXB0aW9ufGVufDB8fHx8MTc3MDc0NTAzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic reception"
+    },
+    {
+      "id": "about-team",
+      "description": "A diverse group of medical professionals smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtZWRpY2FsJTIwdGVhbXxlbnwwfHx8fDE3NzA4MTE2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical team"
+    },
+    {
+      "id": "service-general",
+      "description": "A doctor consulting with a patient in a friendly manner.",
+      "imageUrl": "https://images.unsplash.com/photo-1666214278797-b2cc1b12be76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc3MDgxMTY4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor patient"
+    },
+    {
+      "id": "service-specialty",
+      "description": "A scientist looking through a microscope in a lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1707944745891-922795a805dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYWJvcmF0b3J5JTIwcmVzZWFyY2h8ZW58MHx8fHwxNzcwNzk4MDI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laboratory research"
+    },
+    {
+      "id": "service-therapy",
+      "description": "A physical therapist helping a patient with exercises.",
+      "imageUrl": "https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGh5c2ljYWwlMjB0aGVyYXB5fGVufDB8fHx8MTc3MDc4MjE5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "physical therapy"
+    },
+    {
+      "id": "join-us-banner",
+      "description": "A collaborative team working in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NzA3MDg4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "contact-banner",
+      "description": "A close-up of a hand using a vintage telephone.",
+      "imageUrl": "https://images.unsplash.com/photo-1703018022132-e7de75159cd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVsZXBob25lJTIwY29udGFjdHxlbnwwfHx8fDE3NzA4MTE2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "telephone contact"
+    },
+    {
+      "id": "mission-vision",
+      "description": "An abstract image representing vision and future.",
+      "imageUrl": "https://images.unsplash.com/photo-1769776400357-40e8a8aa8f33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMGdvYWx8ZW58MHx8fHwxNzcwODExNjg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract goal"
+    }
+  ]
 }
