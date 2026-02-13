@@ -44,7 +44,8 @@ const Navbar = () => {
       <header
         className={cn(
           "fixed top-0 left-0 w-full z-40 transition-all duration-300",
-          hasScrolled ? "bg-background/80 shadow-md backdrop-blur-sm" : "bg-transparent"
+          hasScrolled ? "bg-background/80 shadow-md backdrop-blur-sm" : "bg-transparent",
+          "hidden" // Hiding the old navbar
         )}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

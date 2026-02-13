@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
-import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
+import Dock from '@/components/ui/dock';
 
 export const metadata: Metadata = {
   title: 'Alright Ability',
@@ -26,10 +26,10 @@ export default function RootLayout({
       </head>
       <body className="font-body bg-background text-foreground">
         <div className="flex min-h-screen flex-col">
-          <Navbar />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow pb-24">{children}</main>
           <Footer />
         </div>
+        <Dock />
         <Toaster />
       </body>
     </html>
