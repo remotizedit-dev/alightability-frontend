@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import AnimatedContent from "@/components/ui/animated-content";
+import SplitText from "@/components/ui/split-text";
 
 const HeroSection = () => {
     const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
@@ -23,7 +24,12 @@ const HeroSection = () => {
             <div className="relative z-10 p-4 max-w-4xl mx-auto">
                 <AnimatedContent distance={50}>
                     <h1 className="text-4xl md:text-6xl font-headline font-extrabold tracking-tight">
-                        Compassionate Care, <br /> Clinical Excellence.
+                        <span className="block overflow-hidden">
+                            <SplitText delay={0.2} stagger={0.03}>Compassionate Care,</SplitText>
+                        </span>
+                        <span className="block overflow-hidden">
+                            <SplitText delay={0.5} stagger={0.03}>Clinical Excellence.</SplitText>
+                        </span>
                     </h1>
                 </AnimatedContent>
                 <AnimatedContent distance={50} delay={0.2}>
