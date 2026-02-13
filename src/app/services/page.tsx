@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Baby, Brain, HeartPulse, Microscope, Pill, ShieldCheck, Stethoscope, Bone } from "lucide-react";
+import AnimatedContent from "@/components/ui/animated-content";
 
 const services = [
   {
@@ -46,14 +47,16 @@ const services = [
 
 
 const PageHeader = () => (
-    <div className="bg-secondary py-20 lg:py-32">
-      <div className="container mx-auto px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Clinical Services</h1>
-        <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-          A comprehensive range of healthcare services designed to meet your needs at every stage of life.
-        </p>
-      </div>
-    </div>
+    <AnimatedContent distance={50}>
+        <div className="bg-secondary py-20 lg:py-32">
+        <div className="container mx-auto px-4 text-center">
+            <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Clinical Services</h1>
+            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
+            A comprehensive range of healthcare services designed to meet your needs at every stage of life.
+            </p>
+        </div>
+        </div>
+    </AnimatedContent>
 );
 
 
@@ -64,18 +67,20 @@ const ServicesPage = () => {
             <div className="py-16 lg:py-24">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {services.map((service) => (
-                            <Card key={service.title} className="flex flex-col text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                                <CardHeader>
-                                    <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
-                                        {service.icon}
-                                    </div>
-                                    <CardTitle className="font-headline pt-4">{service.title}</CardTitle>
-                                </CardHeader>
-                                <CardContent className="flex-grow">
-                                    <p className="text-muted-foreground">{service.description}</p>
-                                </CardContent>
-                            </Card>
+                        {services.map((service, index) => (
+                            <AnimatedContent key={service.title} distance={50} delay={index * 0.1}>
+                                <Card className="flex flex-col text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                                    <CardHeader>
+                                        <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
+                                            {service.icon}
+                                        </div>
+                                        <CardTitle className="font-headline pt-4">{service.title}</CardTitle>
+                                    </CardHeader>
+                                    <CardContent className="flex-grow">
+                                        <p className="text-muted-foreground">{service.description}</p>
+                                    </CardContent>
+                                </Card>
+                            </AnimatedContent>
                         ))}
                     </div>
                 </div>

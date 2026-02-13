@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { HeartPulse, Microscope, Pill, Stethoscope } from "lucide-react";
+import AnimatedContent from "../ui/animated-content";
 
 const services = [
     {
@@ -30,15 +31,17 @@ const ServicesHighlight = () => {
     return (
         <section id="services" className="py-16 lg:py-24 bg-secondary">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-12 animate-fade-in-up">
-                    <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Core Services</h2>
-                    <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-                        We offer a wide range of services to meet your health needs, ensuring comprehensive care under one roof.
-                    </p>
-                </div>
+                <AnimatedContent distance={50}>
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Core Services</h2>
+                        <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+                            We offer a wide range of services to meet your health needs, ensuring comprehensive care under one roof.
+                        </p>
+                    </div>
+                </AnimatedContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {services.map((service, index) => (
-                        <div key={service.title} className="animate-fade-in-up" style={{ animationDelay: `${index * 150}ms` }}>
+                        <AnimatedContent key={service.title} distance={50} delay={index * 0.1}>
                             <Card className="text-center h-full hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
                                 <CardHeader>
                                     <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
@@ -50,14 +53,16 @@ const ServicesHighlight = () => {
                                     <p className="text-muted-foreground">{service.description}</p>
                                 </CardContent>
                             </Card>
-                        </div>
+                        </AnimatedContent>
                     ))}
                 </div>
-                <div className="text-center mt-12 animate-fade-in-up">
-                    <Button asChild size="lg">
-                        <Link href="/services">View All Services</Link>
-                    </Button>
-                </div>
+                <AnimatedContent distance={50}>
+                    <div className="text-center mt-12">
+                        <Button asChild size="lg">
+                            <Link href="/services">View All Services</Link>
+                        </Button>
+                    </div>
+                </AnimatedContent>
             </div>
         </section>
     );

@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className="font-body bg-background text-foreground">
         <div className="flex min-h-screen flex-col">
           <Navbar />
-          <main className="flex-grow animate-fade-in">{children}</main>
+          <main className="flex-grow">{children}</main>
           <Footer />
         </div>
         <Toaster />
