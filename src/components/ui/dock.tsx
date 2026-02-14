@@ -73,14 +73,14 @@ const Dock = () => {
     <div
       ref={hoverAreaRef}
       className={cn(
-        "fixed bottom-4 left-0 right-0 h-12 flex justify-center z-50 transition-transform duration-300 ease-in-out",
+        "fixed bottom-4 left-0 right-0 h-14 flex justify-center z-50 transition-transform duration-300 ease-in-out",
         (isMobile || hasScrolled) ? 'translate-y-0' : 'translate-y-24 md:hidden'
       )}
     >
       <TooltipProvider>
           <div 
               ref={dockRef}
-              className="flex items-end h-full p-2 space-x-2 bg-background/50 backdrop-blur-xl border rounded-2xl shadow-lg"
+              className="flex items-center p-1 space-x-1 bg-background/50 backdrop-blur-xl border rounded-2xl shadow-lg"
           >
               {navLinks.map((link) => (
                   <Tooltip key={link.href} delayDuration={0}>
