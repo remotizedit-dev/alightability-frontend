@@ -7,7 +7,7 @@ const MissionSection = () => {
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <AnimatedContent distance={50} delay={0.2}>
-                        <div className="rounded-lg overflow-hidden shadow-xl aspect-video relative">
+                        <div className="rounded-lg overflow-hidden shadow-xl relative h-96">
                             <Image
                                 src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771098751/carousel-1_j8sujh.png"
                                 alt="Caregiver assisting a person in a wheelchair."
