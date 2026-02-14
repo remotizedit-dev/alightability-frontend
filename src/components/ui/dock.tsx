@@ -60,7 +60,7 @@ const Dock = () => {
   return (
     <div
       ref={hoverAreaRef}
-      className="fixed bottom-4 left-0 right-0 h-24 flex justify-center z-50"
+      className="fixed bottom-4 left-0 right-0 h-16 flex justify-center z-50"
     >
       <TooltipProvider>
           <div 
