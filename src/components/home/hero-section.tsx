@@ -25,25 +25,22 @@ const HeroSection = () => {
                 <AnimatedContent distance={50}>
                     <h1 className="text-4xl md:text-6xl font-headline font-extrabold tracking-tight">
                         <span className="block overflow-hidden">
-                            <SplitText delay={0.2} stagger={0.03}>Compassionate Care,</SplitText>
+                            <SplitText delay={0.2} stagger={0.03}>ALIGHTING YOUR</SplitText>
                         </span>
                         <span className="block overflow-hidden">
-                            <SplitText delay={0.5} stagger={0.03}>Clinical Excellence.</SplitText>
+                            <SplitText delay={0.5} stagger={0.03}>ABILITY STARTS HERE</SplitText>
                         </span>
                     </h1>
                 </AnimatedContent>
                 <AnimatedContent distance={50} delay={0.2}>
                     <p className="mt-4 text-lg md:text-xl text-slate-200">
-                        Alright Ability is dedicated to providing top-tier clinical services with a focus on patient well-being and innovative healthcare solutions.
+                    Call to book in a free appointment
                     </p>
                 </AnimatedContent>
                 <AnimatedContent distance={50} delay={0.4}>
-                    <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+                    <div className="mt-8 flex justify-center">
                         <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                            <Link href="/services">Explore Our Services</Link>
-                        </Button>
-                        <Button asChild size="lg" variant="secondary">
-                            <Link href="/contact">Get In Touch</Link>
+                            <Link href="tel:01799399555">01799399555</Link>
                         </Button>
                     </div>
                 </AnimatedContent>
