@@ -56,6 +56,27 @@ const services = [
     },
 ];
 
+const ServiceCard = ({ service, index }: { service: typeof services[0], index: number }) => (
+    <AnimatedContent distance={50} delay={index * 0.1}>
+        <Card className="text-center h-full hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col">
+            <CardHeader>
+                <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
+                    {service.icon}
+                </div>
+                <CardTitle className="font-headline pt-4 text-xl">{service.title}</CardTitle>
+            </CardHeader>
+            <CardContent className="flex-grow">
+                <p className="text-muted-foreground">{service.description}</p>
+            </CardContent>
+            <CardFooter className="pt-4 justify-center">
+                <Button asChild variant="link">
+                    <Link href="/services">Read More</Link>
+                </Button>
+            </CardFooter>
+        </Card>
+    </AnimatedContent>
+);
+
 const ServicesHighlight = () => {
     return (
         <section id="services" className="py-16 lg:py-24 bg-secondary">
@@ -68,28 +89,25 @@ const ServicesHighlight = () => {
                         </p>
                     </div>
                 </AnimatedContent>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    {services.map((service, index) => (
-                        <AnimatedContent key={service.title} distance={50} delay={index * 0.1}>
-                            <Card className="text-center h-full hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                                <CardHeader>
-                                    <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
-                                        {service.icon}
-                                    </div>
-                                    <CardTitle className="font-headline pt-4 text-xl">{service.title}</CardTitle>
-                                </CardHeader>
-                                <CardContent className="flex-grow">
-                                    <p className="text-muted-foreground">{service.description}</p>
-                                </CardContent>
-                                <CardFooter className="pt-4 justify-center">
-                                    <Button asChild variant="link">
-                                        <Link href="/services">Read More</Link>
-                                    </Button>
-                                </CardFooter>
-                            </Card>
-                        </AnimatedContent>
-                    ))}
+                
+                <div className="space-y-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {services.slice(0, 3).map((service, i) => (
+                            <ServiceCard key={service.title} service={service} index={i} />
+                        ))}
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-2/3 mx-auto">
+                        {services.slice(3, 5).map((service, i) => (
+                            <ServiceCard key={service.title} service={service} index={i + 3} />
+                        ))}
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {services.slice(5, 8).map((service, i) => (
+                            <ServiceCard key={service.title} service={service} index={i + 5} />
+                        ))}
+                    </div>
                 </div>
+
                 <AnimatedContent distance={50}>
                     <div className="text-center mt-12">
                         <Button asChild size="lg">
