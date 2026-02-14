@@ -27,12 +27,13 @@ const AboutHighlight = () => {
                     </AnimatedContent>
                     {aboutImage && (
                         <AnimatedContent distance={50} delay={0.2}>
-                            <div className="aspect-video relative">
+                            <div>
                                 <Image
                                     src={aboutImage.imageUrl}
                                     alt={aboutImage.description}
-                                    fill
-                                    className="object-contain"
+                                    width={1024}
+                                    height={341}
+                                    className="w-full h-auto object-contain"
                                     data-ai-hint={aboutImage.imageHint}
                                 />
                             </div>
