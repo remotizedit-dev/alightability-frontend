@@ -51,20 +51,18 @@ const Navbar = () => {
         )}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-background shadow-xl rounded-full flex items-center h-20 px-6">
-            <div className="absolute left-6 top-1/2 -translate-y-1/2">
-              <Link href="/">
-                <Image 
-                  src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771094201/WhatsApp_Image_2026-02-10_at_13.14.36-removebg-preview_sal0z3.png" 
-                  alt="Alright Ability Logo" 
-                  width={150} 
-                  height={50}
-                  className="object-contain"
-                  priority
-                />
-              </Link>
-            </div>
-            <nav className="flex items-center space-x-8 w-full justify-center">
+          <div className="bg-background shadow-xl rounded-full flex items-center justify-between h-20 px-6">
+            <Link href="/">
+              <Image 
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771094201/WhatsApp_Image_2026-02-10_at_13.14.36-removebg-preview_sal0z3.png" 
+                alt="Alright Ability Logo" 
+                width={150} 
+                height={50}
+                className="object-contain"
+                priority
+              />
+            </Link>
+            <nav className="flex items-center space-x-8">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
