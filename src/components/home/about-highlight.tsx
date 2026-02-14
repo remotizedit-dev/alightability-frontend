@@ -15,7 +15,7 @@ const AboutHighlight = () => {
                         <div>
                             <h2 className="text-3xl md:text-4xl font-headline font-bold">About Alright Ability</h2>
                             <p className="mt-4 text-lg text-muted-foreground">
-                                Founded on the principles of integrity, innovation, and inclusivity, Alright Ability has been a cornerstone of community health for over a decade. Our mission is to deliver exceptional clinical care that is both accessible and personalized.
+                                Alight Ability is established as a NDIS service provider in the Greater Sydney Region. Our team of passionate and skilled employees focus on helping our lovely participants along with their family to achieve all their goals. At Alight Ability our priority is caring for our participants with love and affection to provide true people centred quality supports and services.
                             </p>
                             <p className="mt-4 text-lg text-muted-foreground">
                                 Our team of dedicated professionals works tirelessly to advance medical practices and ensure every patient receives the attention and treatment they deserve.
