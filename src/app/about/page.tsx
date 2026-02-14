@@ -29,12 +29,12 @@ const AboutPage = () => {
           <AnimatedContent distance={50} delay={0.2}>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {aboutTeamImage && (
-                <div className="rounded-lg overflow-hidden shadow-xl aspect-video relative">
+                <div className="aspect-video relative">
                   <Image
                     src={aboutTeamImage.imageUrl}
                     alt={aboutTeamImage.description}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     data-ai-hint={aboutTeamImage.imageHint}
                   />
                 </div>
