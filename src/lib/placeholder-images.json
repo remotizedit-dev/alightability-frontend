@@ -13,6 +13,12 @@
       "imageHint": "medical team"
     },
     {
+      "id": "mission-nurse",
+      "description": "A compassionate nurse smiling warmly, ready to provide care.",
+      "imageUrl": "https://images.unsplash.com/photo-1537368910025-700350796527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxudXJzZXxlbnwwfHx8fDE3NzA4MTE2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nurse smiling"
+    },
+    {
       "id": "service-general",
       "description": "A doctor consulting with a patient in a friendly manner.",
       "imageUrl": "https://images.unsplash.com/photo-1666214278797-b2cc1b12be76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc3MDgxMTY4NHww&ixlib=rb-4.1.0&q=80&w=1080",
