@@ -1,12 +1,13 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Home, User, Stethoscope, Mail, Briefcase, LucideIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const navLinks: { href: string; label: string; icon: LucideIcon }[] = [
   { href: "/", label: "Home", icon: Home },
@@ -20,6 +21,17 @@ const Dock = () => {
   const hoverAreaRef = useRef<HTMLDivElement>(null);
   const dockRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+  const [hasScrolled, setHasScrolled] = useState(false);
+  const isMobile = useIsMobile();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setHasScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   useEffect(() => {
     const hoverArea = hoverAreaRef.current;
@@ -60,7 +72,10 @@ const Dock = () => {
   return (
     <div
       ref={hoverAreaRef}
-      className="fixed bottom-4 left-0 right-0 h-16 flex justify-center z-50"
+      className={cn(
+        "fixed bottom-4 left-0 right-0 h-12 flex justify-center z-50 transition-transform duration-300 ease-in-out",
+        (isMobile || hasScrolled) ? 'translate-y-0' : 'translate-y-24 md:hidden'
+      )}
     >
       <TooltipProvider>
           <div 

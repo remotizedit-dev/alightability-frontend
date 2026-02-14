@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from 'next/navigation';
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
@@ -44,14 +45,21 @@ const Navbar = () => {
       <header
         className={cn(
           "fixed top-0 left-0 w-full z-40 transition-all duration-300",
-          hasScrolled ? "bg-background/80 shadow-md backdrop-blur-sm" : "bg-transparent",
-          "hidden" // Hiding the old navbar
+          "hidden md:block", // Only show on desktop
+          hasScrolled ? "bg-background/80 shadow-md backdrop-blur-sm -translate-y-full" : "bg-transparent",
         )}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
-            <Link href="/" className="text-2xl font-headline font-bold text-primary transition-colors hover:text-primary/80">
-              Alright Ability
+            <Link href="/">
+              <Image 
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto/v1771093438/WhatsApp_Image_2026-02-15_at_12.23.08_AM_smljyv.jpg" 
+                alt="Alright Ability Logo" 
+                width={150} 
+                height={50}
+                className="object-contain"
+                priority
+              />
             </Link>
 
             <nav className="hidden md:flex items-center space-x-8">
@@ -92,8 +100,14 @@ const Navbar = () => {
         />
         <div className="fixed top-0 right-0 h-full w-full max-w-xs bg-background shadow-lg p-6 animate-in slide-in-from-right-full duration-300">
           <div className="flex items-center justify-between mb-8">
-            <Link href="/" className="text-2xl font-headline font-bold text-primary">
-              Alright Ability
+            <Link href="/" onClick={() => setIsOpen(false)}>
+              <Image 
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto/v1771093438/WhatsApp_Image_2026-02-15_at_12.23.08_AM_smljyv.jpg" 
+                alt="Alright Ability Logo" 
+                width={150} 
+                height={50}
+                className="object-contain"
+              />
             </Link>
             <Button onClick={() => setIsOpen(false)} variant="ghost" size="icon">
               <X className="h-6 w-6" />
