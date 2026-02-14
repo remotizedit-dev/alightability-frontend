@@ -44,50 +44,45 @@ const Navbar = () => {
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 w-full z-40 transition-all duration-300",
+          "fixed top-0 left-0 w-full z-40 transition-transform duration-500 ease-in-out",
           "hidden md:block", // Only show on desktop
-          hasScrolled ? "bg-background/80 shadow-md backdrop-blur-sm -translate-y-full" : "bg-transparent",
+          "pt-4",
+          hasScrolled ? "-translate-y-[150%]" : "translate-y-0",
         )}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
-            <Link href="/">
-              <Image 
-                src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto/v1771093438/WhatsApp_Image_2026-02-15_at_12.23.08_AM_smljyv.jpg" 
-                alt="Alright Ability Logo" 
-                width={150} 
-                height={50}
-                className="object-contain"
-                priority
-              />
-            </Link>
-
-            <nav className="hidden md:flex items-center space-x-8">
+          <div className="relative bg-background shadow-xl rounded-full flex items-center h-20 px-6">
+            <div className="absolute left-6 top-1/2 -translate-y-1/2">
+              <Link href="/">
+                <Image 
+                  src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771094201/WhatsApp_Image_2026-02-10_at_13.14.36-removebg-preview_sal0z3.png" 
+                  alt="Alright Ability Logo" 
+                  width={150} 
+                  height={50}
+                  className="object-contain"
+                  priority
+                />
+              </Link>
+            </div>
+            <nav className="flex items-center space-x-8 w-full justify-center">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
                   className={cn(
                     "text-lg font-medium transition-colors hover:text-primary",
-                    pathname === link.href ? "text-primary" : (hasScrolled ? "text-foreground" : "text-white")
+                    pathname === link.href ? "text-primary" : "text-foreground"
                   )}
                 >
                   {link.label}
                 </Link>
               ))}
             </nav>
-
-            <div className="md:hidden">
-              <Button onClick={() => setIsOpen(true)} variant="ghost" size="icon" className={cn(hasScrolled ? "text-foreground" : "text-white", "hover:text-primary")}>
-                <Menu className="h-6 w-6" />
-                <span className="sr-only">Open menu</span>
-              </Button>
-            </div>
           </div>
         </div>
       </header>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu (Sheet) is kept for mobile navigation, but is not triggered from the top bar anymore. The Dock is the primary nav on mobile, but this sheet can be triggered if a hamburger icon is added elsewhere. For now, it's unused. */}
       <div
         className={cn(
           "fixed inset-0 z-50 md:hidden",
@@ -102,7 +97,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between mb-8">
             <Link href="/" onClick={() => setIsOpen(false)}>
               <Image 
-                src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto/v1771093438/WhatsApp_Image_2026-02-15_at_12.23.08_AM_smljyv.jpg" 
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771094201/WhatsApp_Image_2026-02-10_at_13.14.36-removebg-preview_sal0z3.png" 
                 alt="Alright Ability Logo" 
                 width={150} 
                 height={50}
