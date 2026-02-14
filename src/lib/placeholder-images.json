@@ -8,9 +8,9 @@
     },
     {
       "id": "about-team",
-      "description": "A diverse group of medical professionals smiling.",
-      "imageUrl": "https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtZWRpY2FsJTIwdGVhbXxlbnwwfHx8fDE3NzA4MTE2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "medical team"
+      "description": "Alight Ability Team",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771094201/WhatsApp_Image_2026-02-10_at_13.14.36-removebg-preview_sal0z3.png",
+      "imageHint": "team photo"
     },
     {
       "id": "mission-nurse",
