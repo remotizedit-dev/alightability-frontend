@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -6,8 +7,14 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           <div className="mb-4 md:mb-0">
-            <Link href="/" className="text-xl font-headline font-bold text-primary transition-colors hover:text-primary/80">
-              Alright Ability
+            <Link href="/">
+              <Image 
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771094201/WhatsApp_Image_2026-02-10_at_13.14.36-removebg-preview_sal0z3.png" 
+                alt="Alright Ability Logo" 
+                width={150} 
+                height={50}
+                className="object-contain inline-block"
+              />
             </Link>
             <p className="text-sm mt-1">&copy; {new Date().getFullYear()} All rights reserved.</p>
           </div>
