@@ -66,7 +66,7 @@ const ServicesPage = () => {
             <PageHeader />
             <div className="py-16 lg:py-24">
                 <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {services.map((service, index) => (
                             <AnimatedContent key={service.title} distance={50} delay={index * 0.1}>
                                 <Card className="flex flex-col text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">

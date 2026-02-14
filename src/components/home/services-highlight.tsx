@@ -96,7 +96,7 @@ const ServicesHighlight = () => {
                             <ServiceCard key={service.title} service={service} index={i} />
                         ))}
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-2/3 mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-5/6 mx-auto">
                         {services.slice(3, 5).map((service, i) => (
                             <ServiceCard key={service.title} service={service} index={i + 3} />
                         ))}
