@@ -1,47 +1,47 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Baby, Brain, HeartPulse, Microscope, Pill, ShieldCheck, Stethoscope, Bone } from "lucide-react";
+import { UserRoundCheck, Home, ShieldCheck, Users, Car, SprayCan, BedDouble, KeyRound } from "lucide-react";
 import AnimatedContent from "@/components/ui/animated-content";
 
 const services = [
   {
-    icon: <HeartPulse className="w-8 h-8 text-primary" />,
-    title: "General & Preventive Medicine",
-    description: "Routine check-ups, immunizations, and health screenings to keep you and your family healthy.",
+    icon: <UserRoundCheck className="w-8 h-8 text-primary" />,
+    title: "Personal Care Services",
+    description: "Our lovely support workers will help you take care of all your Personal care needs such as showering, grooming, dressing, care for.........",
   },
   {
-    icon: <Stethoscope className="w-8 h-8 text-primary" />,
-    title: "Cardiology",
-    description: "Expert care for heart conditions, including diagnosis, treatment, and ongoing management.",
-  },
-  {
-    icon: <Baby className="w-8 h-8 text-primary" />,
-    title: "Pediatrics",
-    description: "Specialized medical care for infants, children, and adolescents.",
-  },
-  {
-    icon: <Brain className="w-8 h-8 text-primary" />,
-    title: "Neurology",
-    description: "Diagnosis and treatment of disorders of the nervous system.",
-  },
-  {
-    icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M13.2 2.1a1.6 1.6 0 0 0-2.4 0l-6 5.9a1.6 1.6 0 0 0 0 2.4l6 5.9a1.6 1.6 0 0 0 2.4 0l6-5.9a1.6 1.6 0 0 0 0-2.4Z"/><path d="M10.8 10.2a1.6 1.6 0 0 0-2.4 0l-6 5.9a1.6 1.6 0 0 0 0 2.4l6 5.9a1.6 1.6 0 0 0 2.4 0l6-5.9a1.6 1.6 0 0 0 0-2.4Z"/></svg>,
-    title: "Dermatology",
-    description: "Comprehensive care for skin, hair, and nail conditions.",
-  },
-  {
-    icon: <Pill className="w-8 h-8 text-primary" />,
-    title: "Internal Medicine",
-    description: "Comprehensive care for adults, focusing on the prevention and treatment of complex illnesses.",
-  },
-  {
-    icon: <Microscope className="w-8 h-8 text-primary" />,
-    title: "Laboratory Services",
-    description: "On-site laboratory for fast and accurate diagnostic testing.",
+    icon: <Home className="w-8 h-8 text-primary" />,
+    title: "Domestic Assistance",
+    description: "When you face challenges, due to your condition, to complete your day to day house chores our staff will help you............",
   },
   {
     icon: <ShieldCheck className="w-8 h-8 text-primary" />,
-    title: "Oncology",
-    description: "Compassionate and advanced care for patients with cancer.",
+    title: "High Intensity Support",
+    description: "If you have high needs don’t worry our highly qualified Nurses are here to save the day! Our RNs and ENs can provide specialist care..",
+  },
+  {
+    icon: <Users className="w-8 h-8 text-primary" />,
+    title: "Community Access, Social and Recreational Activities",
+    description: "Our helpful support workers are always ready to take you out and to promote your true independence. We can help you go to.....",
+  },
+  {
+    icon: <Car className="w-8 h-8 text-primary" />,
+    title: "Travel/Transport Support",
+    description: "Our friendly support workers will assist you with transport to wherever you need to go such as: Attending regular appointments ......",
+  },
+  {
+    icon: <SprayCan className="w-8 h-8 text-primary" />,
+    title: "Cleaning and Home Maintenance Support",
+    description: "We understand that you may need a bit of help in cleaning or maintaining your house/yard. So, our experienced cleaners .....",
+  },
+  {
+    icon: <BedDouble className="w-8 h-8 text-primary" />,
+    title: "Short-term Accommodation",
+    description: "If you or your loved ones need a little break then we can help you or your loved ones find a suitable accommodation where they can stay, relax and have fun. You and your loved.....................",
+  },
+  {
+    icon: <KeyRound className="w-8 h-8 text-primary" />,
+    title: "Supported Independent Living",
+    description: "In Supported Independent Living with us you have access to qualified support workers 24/7 in your home so all your care needs will be taken care of with love and respect......",
   },
 ];
 
@@ -50,7 +50,7 @@ const PageHeader = () => (
     <AnimatedContent distance={50}>
         <div className="bg-secondary py-20 lg:py-32">
         <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Clinical Services</h1>
+            <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Services</h1>
             <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
             A comprehensive range of healthcare services designed to meet your needs at every stage of life.
             </p>
@@ -69,7 +69,7 @@ const ServicesPage = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {services.map((service, index) => (
                             <AnimatedContent key={service.title} distance={50} delay={index * 0.1}>
-                                <Card className="flex flex-col text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                                <Card className="flex flex-col text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
                                     <CardHeader>
                                         <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
                                             {service.icon}
