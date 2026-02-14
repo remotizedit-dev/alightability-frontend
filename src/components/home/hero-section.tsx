@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import AnimatedContent from "@/components/ui/animated-content";
 import SplitText from "@/components/ui/split-text";
+import { Phone } from "lucide-react";
 
 const HeroSection = () => {
     const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
@@ -40,7 +41,10 @@ const HeroSection = () => {
                 <AnimatedContent distance={50} delay={0.4}>
                     <div className="mt-8 flex justify-center">
                         <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                            <Link href="tel:01799399555">01799399555</Link>
+                            <Link href="tel:1300725611">
+                                <Phone />
+                                Call 1300 725 611
+                            </Link>
                         </Button>
                     </div>
                 </AnimatedContent>
