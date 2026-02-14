@@ -3,6 +3,7 @@ import HeroSection from '@/components/home/hero-section';
 import MissionSection from '@/components/home/mission-section';
 import ServicesHighlight from '@/components/home/services-highlight';
 import Testimonials from '@/components/home/testimonials';
+import OurValues from '@/components/home/our-values';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <MissionSection />
       <AboutHighlight />
+      <OurValues />
       <ServicesHighlight />
       <Testimonials />
     </>
