@@ -31,7 +31,7 @@ const services = [
   {
     icon: <SprayCan className="w-8 h-8 text-primary" />,
     title: "Cleaning and Home Maintenance Support",
-    description: "We understand that you may need a bit of help in cleaning or maintaining your house/yard. So, our experienced cleaners .....",
+    description: "We understand that you may need a bit of help in cleaning or maintaining your house/yard. So, our experienced cleaners and gardeners will support you to keep your home a clean and well maintained place so it is safe for you. We can help you with :   General cleaning – Household cleaning such as vacuuming, moping, wiping & dusting. Deep cleaning – Specialised cleaning for toilets, outside areas, windows, steam cleaning or forensic cleaning. Gardening – Regular lawn mowing, hedging, weeding, pruning, green waste removal, clearing garden beds.",
   },
   {
     icon: <BedDouble className="w-8 h-8 text-primary" />,
