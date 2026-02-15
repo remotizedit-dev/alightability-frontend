@@ -96,14 +96,14 @@ const ServicesHighlight = () => {
                             <ServiceCard key={service.title} service={service} index={i} />
                         ))}
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-5/6 mx-auto">
-                        {services.slice(3, 5).map((service, i) => (
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {services.slice(3, 6).map((service, i) => (
                             <ServiceCard key={service.title} service={service} index={i + 3} />
                         ))}
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {services.slice(5, 8).map((service, i) => (
-                            <ServiceCard key={service.title} service={service} index={i + 5} />
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-5/6 mx-auto">
+                        {services.slice(6, 8).map((service, i) => (
+                            <ServiceCard key={service.title} service={service} index={i + 6} />
                         ))}
                     </div>
                 </div>
