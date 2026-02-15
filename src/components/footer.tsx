@@ -29,7 +29,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold uppercase text-primary-foreground mb-4 tracking-wider">Socials</h3>
             <nav className="flex flex-col space-y-2 text-sm">
-              <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Facebook</a>
+              <a href="https://www.facebook.com/AlightAbility" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Facebook</a>
               <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Instagram</a>
             </nav>
           </div>
