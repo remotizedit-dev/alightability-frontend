@@ -21,7 +21,7 @@ const services = [
   {
     icon: <Users className="w-8 h-8 text-primary" />,
     title: "Community Access, Social and Recreational Activities",
-    description: "Our helpful support workers are always ready to take you out and to promote your true independence. We can help you go to.....",
+    description: "Our helpful support workers are always ready to take you out to promote your true independence. We can help you go to and from appointments, shops, carry shopping bags, attend games and events, go to Gym, meet families and friends or to join community programs and religious events. Someday you might feel a bit creative so our imaginative support workers can help you to do a bit of arts and crafts. You can also try out some cooking or bake a beautiful cake with your friends. You can also attend other activities such as fitness classes, golf, dance classes, gym etc.",
   },
   {
     icon: <Car className="w-8 h-8 text-primary" />,
