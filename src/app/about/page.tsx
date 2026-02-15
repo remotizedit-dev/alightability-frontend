@@ -6,10 +6,18 @@ import AnimatedContent from "@/components/ui/animated-content";
 
 const PageHeader = () => (
   <AnimatedContent distance={50}>
-    <div className="bg-secondary py-20 lg:py-32">
-      <div className="container mx-auto px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-headline font-bold">About Alright Ability</h1>
-        <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
+    <div className="relative py-20 lg:py-52 text-white">
+      <Image
+        src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771167162/iStock-525028968_sq1paj.jpg"
+        alt="About Alight Ability"
+        fill
+        className="object-cover"
+        data-ai-hint="medical team"
+      />
+      <div className="absolute inset-0 bg-black/50" />
+      <div className="relative z-10 container mx-auto px-4 text-center">
+        <h1 className="text-4xl md:text-5xl font-headline font-bold">About Alight Ability</h1>
+        <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
           Learn about our journey, our mission, and the dedicated team committed to your health and well-being.
         </p>
       </div>
