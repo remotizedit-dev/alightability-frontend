@@ -3,19 +3,19 @@
     {
       "id": "hero",
       "description": "Hero section background image",
-      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771168517/Frame_937_1_yshqw0.png",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771168902/Frame_937_1_gz98xq.png",
       "imageHint": "people helping"
     },
     {
       "id": "about-team",
       "description": "Alight Ability Team",
-      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771167406/pexels-olly-3768914_uvd51r.jpg",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771168903/iStock-525028968_udaeip.jpg",
       "imageHint": "team photo"
     },
     {
       "id": "mission-nurse",
       "description": "A compassionate nurse smiling warmly, ready to provide care.",
-      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771153290/pexels-rdne-7403011_jufzuz.jpg",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771168903/pexels-rdne-7403011_m91qmr.jpg",
       "imageHint": "nurse smiling"
     },
     {
