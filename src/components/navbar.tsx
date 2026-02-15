@@ -56,8 +56,8 @@ const Navbar = () => {
               <Image 
                 src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png" 
                 alt="Alright Ability Logo" 
-                width={150} 
-                height={50}
+                width={80} 
+                height={80}
                 className="object-contain"
                 priority
               />
