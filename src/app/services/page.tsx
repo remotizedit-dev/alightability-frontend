@@ -41,7 +41,7 @@ const services = [
   {
     icon: <KeyRound className="w-8 h-8 text-primary" />,
     title: "Supported Independent Living",
-    description: "In Supported Independent Living with us you have access to qualified support workers 24/7 in your home so all your care needs will be taken care of with love and respect......",
+    description: "In Supported Independent Living with us you have access to qualified support workers 24/7 in your home so all your care needs will be taken care of with love and respect. We provide you a quality home where you can feel safe and supported by your support workers. You can socialise with other residents and play social games or engage in activities which can help to build your skills making you more independent. We will help you to achieve your goals by having supports tailored to your needs and make sure that you have fun doing it.",
   },
 ];
 
