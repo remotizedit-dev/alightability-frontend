@@ -1,20 +1,25 @@
 import Image from "next/image";
 import AnimatedContent from "../ui/animated-content";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const MissionSection = () => {
+    const missionImage = PlaceHolderImages.find(p => p.id === 'mission-nurse');
+
     return (
         <section id="mission" className="py-16 lg:py-24 bg-secondary">
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <AnimatedContent distance={50} delay={0.2}>
                         <div className="rounded-lg overflow-hidden shadow-xl relative h-96">
-                            <Image
-                                src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771098751/carousel-1_j8sujh.png"
-                                alt="Caregiver assisting a person in a wheelchair."
-                                fill
-                                className="object-cover"
-                                data-ai-hint="caregiver person"
-                            />
+                            {missionImage && (
+                                <Image
+                                    src={missionImage.imageUrl}
+                                    alt={missionImage.description}
+                                    fill
+                                    className="object-cover"
+                                    data-ai-hint={missionImage.imageHint}
+                                />
+                            )}
                         </div>
                     </AnimatedContent>
                     <AnimatedContent distance={50}>
