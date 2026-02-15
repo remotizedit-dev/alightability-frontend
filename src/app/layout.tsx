@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Alright Ability',
   description: 'Your partner in clinical excellence and patient care.',
   icons: {
-    icon: 'https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png',
+    icon: '/favicon.ico',
   },
   openGraph: {
     title: 'Alright Ability',
