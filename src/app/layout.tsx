@@ -8,6 +8,27 @@ import Navbar from '@/components/navbar';
 export const metadata: Metadata = {
   title: 'Alright Ability',
   description: 'Your partner in clinical excellence and patient care.',
+  icons: {
+    icon: 'https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png',
+  },
+  openGraph: {
+    title: 'Alright Ability',
+    description: 'Your partner in clinical excellence and patient care.',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png',
+        width: 512,
+        height: 512,
+        alt: 'Alright Ability Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Alright Ability',
+    description: 'Your partner in clinical excellence and patient care.',
+    images: ['https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png'],
+  },
 };
 
 export default function RootLayout({
