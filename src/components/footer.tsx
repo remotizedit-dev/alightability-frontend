@@ -41,7 +41,7 @@ const Footer = () => {
               <p className="font-semibold text-foreground">Alright Ability</p>
               <p>Sydney, NSW 2000 Australia</p>
               <p>
-                <a href="tel:1234567890" className="hover:text-primary transition-colors">(123) 456-7890</a>
+                <a href="tel:1300725611" className="hover:text-primary transition-colors">1300 725 611</a>
               </p>
               <p>
                 <a href="mailto:contact@alrightability.com" className="hover:text-primary transition-colors">contact@alrightability.com</a>
