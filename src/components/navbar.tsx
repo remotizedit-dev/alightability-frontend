@@ -54,7 +54,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20 px-6">
             <Link href="/">
               <Image 
-                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png" 
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771152105/icon_white_ybhufg.png" 
                 alt="Alright Ability Logo" 
                 width={80} 
                 height={80}
