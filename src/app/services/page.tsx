@@ -16,7 +16,7 @@ const services = [
   {
     icon: <ShieldCheck className="w-8 h-8 text-primary" />,
     title: "High Intensity Support",
-    description: "If you have high needs don’t worry our highly qualified Nurses are here to save the day! Our RNs and ENs can provide specialist care..",
+    description: "If you have high needs don’t worry our highly qualified Nurses are here to save the day! Our RNs and ENs can provide specialist care supports for Bowel Care, Catheter Care, Medication Administration, Trachea Care, Complex Wound Care, PEG Feeding and Subcutaneous Injections.",
   },
   {
     icon: <Users className="w-8 h-8 text-primary" />,
