@@ -54,7 +54,7 @@ const Navbar = () => {
           <div className="bg-background shadow-xl rounded-full flex items-center justify-between h-20 px-6">
             <Link href="/">
               <Image 
-                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771094201/WhatsApp_Image_2026-02-10_at_13.14.36-removebg-preview_sal0z3.png" 
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png" 
                 alt="Alright Ability Logo" 
                 width={150} 
                 height={50}
