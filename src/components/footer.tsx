@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-primary-foreground/20">
+      <div className="border-t border-primary-foreground/20 bg-[#01ACBE]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-xs text-primary-foreground/80">
           <p>Copyright &copy; {new Date().getFullYear()} Alright Ability. All Rights Reserved.</p>
         </div>
