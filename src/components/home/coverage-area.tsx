@@ -20,7 +20,7 @@ const CoverageArea = () => {
                             alt="Map of Australia highlighting the Greater Sydney Region"
                             width={1024}
                             height={768}
-                            className="w-full h-auto object-contain rounded-lg shadow-lg"
+                            className="w-full h-auto object-contain rounded-lg"
                             data-ai-hint="Sydney map"
                         />
                     </div>
