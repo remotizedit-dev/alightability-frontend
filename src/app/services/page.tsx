@@ -36,7 +36,7 @@ const services = [
   {
     icon: <BedDouble className="w-8 h-8 text-primary" />,
     title: "Short-term Accommodation",
-    description: "If you or your loved ones need a little break then we can help you or your loved ones find a suitable accommodation where they can stay, relax and have fun. You and your loved.....................",
+    description: "If you or your loved ones need a little break then we can help you or your loved ones find a suitable accommodation where they can stay, relax and have fun. You and your loved ones can be completely stress free as the accommodation will cater to all your needs and will have a qualified staff available 24/7 to help with all your care needs. You will be supported with all your daily activities such as meals, showering, dressing, medication and also other extracurricular activities.",
   },
   {
     icon: <KeyRound className="w-8 h-8 text-primary" />,
