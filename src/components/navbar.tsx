@@ -40,13 +40,23 @@ const Navbar = () => {
     };
   }, [isOpen]);
 
+  const isHomePage = pathname === '/';
+
+  const logoSrc = isHomePage 
+    ? "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771152105/icon_white_ybhufg.png"
+    : "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png";
+  
+  const inactiveTextColor = isHomePage ? "text-white" : "text-foreground";
+  
+  const logoSize = isHomePage ? 80 : 60;
+
   return (
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 w-full z-40 transition-transform duration-500 ease-in-out",
+          "fixed top-0 left-0 w-full z-40 transition-all duration-300 ease-in-out",
           "hidden md:block", // Only show on desktop
-          "pt-4",
+          isHomePage ? "pt-4" : "bg-background shadow-sm",
           hasScrolled ? "-translate-y-[150%]" : "translate-y-0",
         )}
       >
@@ -54,10 +64,10 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20 px-6">
             <Link href="/">
               <Image 
-                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771152105/icon_white_ybhufg.png" 
+                src={logoSrc} 
                 alt="Alright Ability Logo" 
-                width={80} 
-                height={80}
+                width={logoSize} 
+                height={logoSize}
                 className="object-contain"
                 priority
               />
@@ -69,7 +79,7 @@ const Navbar = () => {
                   href={link.href}
                   className={cn(
                     "text-lg font-bold transition-colors hover:text-primary",
-                    pathname === link.href ? "text-primary" : "text-white"
+                    pathname === link.href ? "text-primary" : inactiveTextColor
                   )}
                 >
                   {link.label}
