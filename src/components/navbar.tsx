@@ -51,7 +51,7 @@ const Navbar = () => {
         )}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-background shadow-xl rounded-full flex items-center justify-between h-20 px-6">
+          <div className="flex items-center justify-between h-20 px-6">
             <Link href="/">
               <Image 
                 src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png" 
@@ -68,8 +68,8 @@ const Navbar = () => {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    "text-lg font-medium transition-colors hover:text-primary",
-                    pathname === link.href ? "text-primary" : "text-foreground"
+                    "text-lg font-bold transition-colors hover:text-primary",
+                    pathname === link.href ? "text-primary" : "text-white"
                   )}
                 >
                   {link.label}
