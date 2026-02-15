@@ -16,7 +16,7 @@ const CoverageArea = () => {
                 <AnimatedContent distance={50} delay={0.2}>
                     <div className="max-w-4xl mx-auto">
                         <Image
-                            src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771148615/ChatGPT_Image_Feb_15_2026_03_42_56_PM_dpbduq.png"
+                            src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771150749/Frame_936_pd5twg.png"
                             alt="Map of Australia highlighting the Greater Sydney Region"
                             width={1024}
                             height={768}
