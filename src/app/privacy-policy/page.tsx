@@ -6,7 +6,8 @@ const PageHeader = () => (
             <div className="container mx-auto px-4 text-center">
                 <h1 className="text-4xl md:text-5xl font-headline font-bold">Privacy Policy</h1>
                 <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-                    Your privacy is important to us. This policy outlines how we collect, use, and protect your information.
+                Alight Health Services Pty Ltd ensures private access and services to support participants to uphold and protect their rights to user privacy. The policy is regulated throughout all our Staff, Management and Support Workers.
+            
                 </p>
             </div>
         </div>
@@ -21,31 +22,45 @@ const PrivacyPolicyPage = () => {
                 <div className="container mx-auto px-4">
                     <div className="prose prose-lg max-w-4xl mx-auto text-muted-foreground">
                         <AnimatedContent distance={50} delay={0.2}>
-                            <h2 className="font-headline text-foreground">1. Introduction</h2>
+                            <h2 className="font-headline text-foreground">POLICY</h2>
                             <p>
-                                Welcome to Alright Ability. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+                                ALIGHT HEALTH SERVICES PTY LTD Is Always Committed to protect the right to privacy for stakeholders, management, representatives, support workers and agencies we deal with.
+                                ALIGHT HEALTH SERVICES PTY LTD Is also committed in protecting the right to privacy as we collect, store and organize information about participants.
+                                ALIGHT HEALTH SERVICES PTY LTD is committed in following the Guidelines of Australian Privacy Principles and Practices.
+                                ALIGHT HEALTH SERVICES PTY LTD will ensure all personal information taken, recorded and collected in any form or material will be informed to the participants.
+                                ALIGHT HEALTH SERVICES PTY LTD is committed to protect the privacy of organizational personnel and participants with legal and ethical obligations as an employer and service provider.
+                                ALIGHT HEALTH SERVICES PTY LTD participants, support worker, staff, management needs to meet these obligations.
+                                This policy confirms to the Federal Privacy Act (1998) and the Australian Privacy Principles, which govern the collection, use and storage of personal information.
+                                This policy will apply to all records, weather hard copy or electronic, containing personal information about individuals, and to interviews or discussion of a sensitive personal nature.
                             </p>
                         </AnimatedContent>
                         
                         <AnimatedContent distance={50} delay={0.3}>
-                            <h2 className="font-headline text-foreground">2. Collection of Your Information</h2>
+                            <h2 className="font-headline text-foreground">2. Personal Information Policy</h2>
                             <p>
-                                We may collect information about you in a variety of ways. The information we may collect on the Site includes personal data, such as your name, shipping address, email address, and telephone number, and demographic information, such as your age, gender, hometown, and interests, that you voluntarily give to us when you register with the Site or when you choose to participate in various activities related to the Site.
-                            </p>
+                            In accordance with dealing personal information All ALIGHT HEALTH SERVICES PTY LTD staff will
+                                
+                                1. Use fair and lawful ways to collect personal information
+                                2. Collect and record personal information that is necessary for ALIGHT HEALTH SERVICES PTY LTD to function its services.
+                                3. Always take consent from the individual in collection of personal information.
+                                4. Notify people about who, why and what personal information would be held, stored and be accessed.
+                                5. Protect all personal Information held for organizations functioning.
+                                6. Destroy all information that will be of no use or expired.
+                                7. Ensures that participants agree and understands why the information being held and collected for.
+                                8. Ensures that participants involve in any visual or audio recording must be agreed to in writing.                            </p>
                         </AnimatedContent>
 
                         <AnimatedContent distance={50} delay={0.4}>
-                            <h2 className="font-headline text-foreground">3. Use of Your Information</h2>
+                            <h2 className="font-headline text-foreground">3. Participants Record Policy</h2>
                             <p>
-                                Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to create and manage your account, email you regarding your account or order, fulfill and manage purchases, orders, payments, and other transactions related to the Site, and increase the efficiency and operation of the Site.
-                            </p>
+                            ALIGHT HEALTH SERVICES PTY LTD will ensure that the participant records will be kept safe and confidential and only be handled by the staff engaged in providing the service to the participant. The information will only be made available to other parties with the consent of the participant, or their advocate, legal guardian or representative.                            </p>
                         </AnimatedContent>
 
                         <AnimatedContent distance={50} delay={0.5}>
-                            <h2 className="font-headline text-foreground">4. Disclosure of Your Information</h2>
+                            <h2 className="font-headline text-foreground">4. Management Privacy Policy</h2>
                             <p>
-                                We may share information we have collected about you in certain situations. Your information may be disclosed as follows: by law or to protect rights, if we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.
-                            </p>
+                                ALIGHT HEALTH SERVICES PTY LTD are responsible for managing the personal information which staff has access to. The organization is responsible for the content in ALIGHT HEALTH SERVICES PTY LTD publications, Communications and information provided in the website. This extends to every advertising in any form to ensure that the website holds a privacy policy against any personal information being collected through any of these channels. ALIGHT HEALTH SERVICES PTY LTD also ensures that all the staff members, participants and management are familiar with all the privacy policy regarding the use of personal information. 
+                                ALIGHT HEALTH SERVICES PTY LTD will not disclose any personal information to a third party without the individuals consent unless the discloser is required or authorized by or under law.                            </p>
                         </AnimatedContent>
 
                         <AnimatedContent distance={50} delay={0.6}>
