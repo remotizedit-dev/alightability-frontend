@@ -11,7 +11,7 @@ const services = [
   {
     icon: <Home className="w-8 h-8 text-primary" />,
     title: "Domestic Assistance",
-    description: "When you face challenges, due to your condition, to complete your day to day house chores our staff will help you............",
+    description: "When you face challenges, due to your condition, to complete your day to day house chores our staff will help you to complete them. We can help you to cook, light clean around the house, tidy up clothes or do the washing.",
   },
   {
     icon: <ShieldCheck className="w-8 h-8 text-primary" />,
