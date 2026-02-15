@@ -26,7 +26,7 @@ const services = [
   {
     icon: <Car className="w-8 h-8 text-primary" />,
     title: "Travel/Transport Support",
-    description: "Our friendly support workers will assist you with transport to wherever you need to go such as: Attending regular appointments ......",
+    description: "Our friendly support workers will assist you with transport to wherever you need to go such as:  Attending regular appointments  Visiting a park, beach or lookouts Attending gym, swimming, golf and bowling Going out for movies or shopping Meeting with families and friends Attending religious and cultural gatherings Attending  any kind of regular classes Going to doctors or allied health appointments",
   },
   {
     icon: <SprayCan className="w-8 h-8 text-primary" />,
