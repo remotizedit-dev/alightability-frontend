@@ -2,8 +2,8 @@ import AboutHighlight from '@/components/home/about-highlight';
 import HeroSection from '@/components/home/hero-section';
 import MissionSection from '@/components/home/mission-section';
 import ServicesHighlight from '@/components/home/services-highlight';
-import Testimonials from '@/components/home/testimonials';
 import OurValues from '@/components/home/our-values';
+import CoverageArea from '@/components/home/coverage-area';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <AboutHighlight />
       <OurValues />
       <ServicesHighlight />
-      <Testimonials />
+      <CoverageArea />
     </>
   );
 }
