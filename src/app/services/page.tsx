@@ -6,7 +6,7 @@ const services = [
   {
     icon: <UserRoundCheck className="w-8 h-8 text-primary" />,
     title: "Personal Care Services",
-    description: "Our lovely support workers will help you take care of all your Personal care needs such as showering, grooming, dressing, care for.........",
+    description: "Our lovely support workers will help you take care of all your Personal care needs such as showering, grooming, dressing, care for incontinence, pressure area care as well as assistance with eating & drinking at meal times and also assistance to take your own medication.",
   },
   {
     icon: <Home className="w-8 h-8 text-primary" />,
