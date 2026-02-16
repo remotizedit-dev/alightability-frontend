@@ -40,7 +40,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold uppercase text-primary-foreground mb-4 tracking-wider">Contact Us</h3>
             <div className="space-y-2 text-sm">
-              <p className="font-semibold text-primary-foreground">Alright Ability</p>
+              <p className="font-semibold text-primary-foreground">Alight Ability</p>
               <p>Sydney, NSW 2000 Australia</p>
               <div className="flex flex-col space-y-2 pt-2">
                  <Button asChild variant="ghost" className="justify-start p-1 h-auto hover:bg-primary-foreground/10">
