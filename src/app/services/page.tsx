@@ -50,13 +50,13 @@ const services = [
 
 const PageHeader = () => (
     <AnimatedContent distance={50}>
-        <div className="bg-secondary py-20 lg:py-32">
-        <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Services</h1>
-            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-            A comprehensive range of healthcare services designed to meet your needs at every stage of life.
-            </p>
-        </div>
+        <div className="relative h-64 lg:h-96 w-full">
+            <Image
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771227294/Alight_Ability_December_ztfqyu.png"
+                alt="Alight Ability Services Banner"
+                fill
+                className="object-cover"
+            />
         </div>
     </AnimatedContent>
 );
