@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Home, ShieldCheck, Users, Car, SprayCan, BedDouble, KeyRound } from "lucide-react";
 import AnimatedContent from "@/components/ui/animated-content";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 
 const services = [
   {
@@ -71,14 +72,14 @@ const ServicesPage = () => {
                         {services.map((service: any, index) => (
                             <AnimatedContent key={service.title} distance={50} delay={index * 0.1}>
                                 <Card className="flex flex-col text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
-                                    <CardHeader>
+                                    <CardHeader className={cn(service.imageUrl && 'p-0')}>
                                         {service.imageUrl ? (
                                             <Image 
                                                 src={service.imageUrl} 
                                                 alt={service.title} 
                                                 width={201} 
                                                 height={55} 
-                                                className="mx-auto"
+                                                className="w-full h-auto rounded-t-lg"
                                             />
                                         ) : (
                                             <>
@@ -89,7 +90,7 @@ const ServicesPage = () => {
                                             </>
                                         )}
                                     </CardHeader>
-                                    <CardContent className="flex-grow">
+                                    <CardContent className={cn("flex-grow", service.imageUrl && "pt-6")}>
                                         <p className="text-muted-foreground">{service.description}</p>
                                     </CardContent>
                                 </Card>
