@@ -33,22 +33,22 @@ const services = [
   {
     imageId: "service-travel-support",
     title: "Travel/Transport Support",
-    description: "Our friendly support workers will assist you with transport to wherever you need to go such as:  Attending regular appointments  Visiting a park, beach or lookouts Attending gym, swimming, golf and bowling Going out for movies or shopping Meeting with families and friends Attending religious and cultural gatherings Attending  any kind of regular classes Going to doctors or allied health appointments",
+    description: "Our transport services support participants to attend appointments, community activities, education, and employment. We prioritise punctuality, safety, and comfort in every journey. Staff are trained to provide appropriate assistance during travel when required. Staying connected to the community should never be a barrier — we help you get there with ease.",
   },
   {
     imageId: "service-cleaning-maintenance",
     title: "Cleaning and Home Maintenance Support",
-    description: "We understand that you may need a bit of help in cleaning or maintaining your house/yard. So, our experienced cleaners and gardeners will support you to keep your home a clean and well maintained place so it is safe for you. We can help you with :   General cleaning – Household cleaning such as vacuuming, moping, wiping & dusting. Deep cleaning – Specialised cleaning for toilets, outside areas, windows, steam cleaning or forensic cleaning. Gardening – Regular lawn mowing, hedging, weeding, pruning, green waste removal, clearing garden beds.",
+    description: "We provide professional home maintenance services including regular cleaning, deep cleaning, and specialist forensic cleaning. Our team approaches every home with dignity, discretion, and compassion — particularly for participants experiencing complex life circumstances. We understand that situations can become overwhelming, and we are here to help without stigma. A clean and safe home promotes wellbeing and peace of mind.",
   },
   {
     imageId: "service-short-term-accom",
     title: "Short-term Accommodation",
-    description: "If you or your loved ones need a little break then we can help you or your loved ones find a suitable accommodation where they can stay, relax and have fun. You and your loved ones can be completely stress free as the accommodation will cater to all your needs and will have a qualified staff available 24/7 to help with all your care needs. You will be supported with all your daily activities such as meals, showering, dressing, medication and also other extracurricular activities.",
+    description: "Our STA services offer safe and comfortable accommodation for participants needing short-term support or respite. Whether for skill development, carer relief, or a change of environment, we provide structured and supportive stays. Activities are tailored to individual goals and preferences. Every stay is designed to be safe, empowering, and enriching.",
   },
   {
     imageId: "service-independent-living",
     title: "Supported Independent Living",
-    description: "In Supported Independent Living with us you have access to qualified support workers 24/7 in your home so all your care needs will be taken care of with love and respect. We provide you a quality home where you can feel safe and supported by your support workers. You can socialise with other residents and play social games or engage in activities which can help to build your skills making you more independent. We will help you to achieve your goals by having supports tailored to your needs and make sure that you have fun doing it.",
+    description: "Our Supported Independent Living services provide consistent daily support in a shared or individual living environment. We assist with personal care, skill development, household tasks, and community participation. Our approach balances structure with empowerment to help participants grow in confidence and independence. We create safe homes where individuals can thrive.",
   },
   {
     imageId: "service-yard-maintenance",
@@ -58,7 +58,7 @@ const services = [
   {
     imageId: "service-ilo",
     title: "Individualized Living Options",
-    description: "Our ILO supports help participants explore and establish customised living arrangements that suit their preferences and goals. We work collaboratively to design supports that promote independence while ensuring safety and stability. Options may include host arrangements, co-residency, or tailored in-home supports. We focus on building sustainable, long-term living solutions.",
+    description: "Our Individualized Living Options supports help participants explore and establish customised living arrangements that suit their preferences and goals. We work collaboratively to design supports that promote independence while ensuring safety and stability. Options may include host arrangements, co-residency, or tailored in-home supports. We focus on building sustainable, long-term living solutions.",
   },
   {
     imageId: "service-wdo",

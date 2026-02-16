@@ -89,7 +89,7 @@ const ContactPage = () => {
                           <FormItem>
                             <FormLabel>Full Name</FormLabel>
                             <FormControl>
-                              <Input placeholder="John Doe" {...field} />
+                              <Input placeholder="John Hill" {...field} />
                             </FormControl>
                             <FormMessage />
                           </FormItem>
@@ -102,7 +102,7 @@ const ContactPage = () => {
                           <FormItem>
                             <FormLabel>Email Address</FormLabel>
                             <FormControl>
-                              <Input placeholder="john.doe@example.com" {...field} />
+                              <Input placeholder="john.hill@example.com" {...field} />
                             </FormControl>
                             <FormMessage />
                           </FormItem>
