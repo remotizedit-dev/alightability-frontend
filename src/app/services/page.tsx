@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const services = [
   {
-    imageUrl: "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771225033/PC_p0pbkc.png",
+    imageUrl: "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771225033/PC_p0pbkc.png",
     title: "Personal Care Services",
     description: "Our lovely support workers will help you take care of all your Personal care needs such as showering, grooming, dressing, care for incontinence, pressure area care as well as assistance with eating & drinking at meal times and also assistance to take your own medication.",
   },
