@@ -63,43 +63,43 @@
     {
       "id": "service-domestic-assistance",
       "description": "A person tidying up a living room.",
-      "imageUrl": "https://images.unsplash.com/photo-1758273705601-50b1b61f7e6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkb21lc3RpYyUyMGNsZWFuaW5nfGVufDB8fHx8MTc3MTI0MTAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771255198/Frame_947_1_ef4msu.png",
       "imageHint": "domestic cleaning"
     },
     {
       "id": "service-high-intensity",
       "description": "A nurse checking a patient's medical equipment.",
-      "imageUrl": "https://images.unsplash.com/photo-1758653500493-5c8f44ff3d10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxudXJzZSUyMHBhdGllbnR8ZW58MHx8fHwxNzcxMjQxMDA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771255198/Frame_943_jbkrwx.png",
       "imageHint": "nurse patient"
     },
     {
       "id": "service-community-access",
       "description": "A group of diverse people enjoying an outdoor activity.",
-      "imageUrl": "https://images.unsplash.com/photo-1763629433062-0f0e43d55d03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tbXVuaXR5JTIwZ2F0aGVyaW5nfGVufDB8fHx8MTc3MTIyNjcyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771255198/Frame_946_ihmvqr.png",
       "imageHint": "community gathering"
     },
     {
       "id": "service-travel-support",
       "description": "A person assisting someone into a vehicle.",
-      "imageUrl": "https://images.unsplash.com/photo-1764347923709-fc48487f2486?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhc3Npc3RlZCUyMHRyYXZlbHxlbnwwfHx8fDE3NzEyNDEwMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771255197/Frame_950_xoek1s.png",
       "imageHint": "assisted travel"
     },
     {
       "id": "service-cleaning-maintenance",
       "description": "A person gardening in a sunny backyard.",
-      "imageUrl": "https://images.unsplash.com/photo-1721318308400-fd8da6c51efe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYXJkZW5pbmclMjBtYWludGVuYW5jZXxlbnwwfHx8fDE3NzEyNDEwMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771255197/Frame_949_prqzco.png",
       "imageHint": "gardening maintenance"
     },
     {
       "id": "service-short-term-accom",
       "description": "A cozy and welcoming bedroom in a house.",
-      "imageUrl": "https://images.unsplash.com/photo-1724582586413-6b69e1c94a17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y296eSUyMGJlZHJvb218ZW58MHx8fHwxNzcxMjI4MjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771255201/Frame_947_cl825z.png",
       "imageHint": "cozy bedroom"
     },
     {
       "id": "service-independent-living",
       "description": "An elderly person happily cooking in their own kitchen.",
-      "imageUrl": "https://images.unsplash.com/photo-1770622006181-ef828aa7c9f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW5kZXBlbmRlbnQlMjBzZW5pb3J8ZW58MHx8fHwxNzcxMjQxMDA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771255198/Frame_948_ioxo45.png",
       "imageHint": "independent senior"
     },
     {
