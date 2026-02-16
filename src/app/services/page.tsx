@@ -1,10 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { UserRoundCheck, Home, ShieldCheck, Users, Car, SprayCan, BedDouble, KeyRound } from "lucide-react";
+import { Home, ShieldCheck, Users, Car, SprayCan, BedDouble, KeyRound } from "lucide-react";
 import AnimatedContent from "@/components/ui/animated-content";
+import Image from "next/image";
 
 const services = [
   {
-    icon: <UserRoundCheck className="w-8 h-8 text-primary" />,
+    imageUrl: "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771225033/PC_p0pbkc.png",
     title: "Personal Care Services",
     description: "Our lovely support workers will help you take care of all your Personal care needs such as showering, grooming, dressing, care for incontinence, pressure area care as well as assistance with eating & drinking at meal times and also assistance to take your own medication.",
   },
@@ -67,14 +68,26 @@ const ServicesPage = () => {
             <div className="py-16 lg:py-24">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        {services.map((service, index) => (
+                        {services.map((service: any, index) => (
                             <AnimatedContent key={service.title} distance={50} delay={index * 0.1}>
                                 <Card className="flex flex-col text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
                                     <CardHeader>
-                                        <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
-                                            {service.icon}
-                                        </div>
-                                        <CardTitle className="font-headline pt-4">{service.title}</CardTitle>
+                                        {service.imageUrl ? (
+                                            <Image 
+                                                src={service.imageUrl} 
+                                                alt={service.title} 
+                                                width={201} 
+                                                height={55} 
+                                                className="mx-auto"
+                                            />
+                                        ) : (
+                                            <>
+                                                <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit">
+                                                    {service.icon}
+                                                </div>
+                                                <CardTitle className="font-headline pt-4">{service.title}</CardTitle>
+                                            </>
+                                        )}
                                     </CardHeader>
                                     <CardContent className="flex-grow">
                                         <p className="text-muted-foreground">{service.description}</p>
