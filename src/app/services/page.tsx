@@ -11,12 +11,17 @@ const services = [
     description: "Our Personal Care services are delivered with respect, dignity, and clinical excellence. We support participants with daily living activities, including showering, dressing, mobility, medication assistance, and high-intensity supports such as PEG feeding, tracheostomy care, and complex bowel management. Our trained staff follow strict clinical protocols to ensure safety and comfort. At Alight Ability, no complexity is too great — we provide care with skill and heart.",
   },
   {
-    imageId: "service-domestic-assistance",
+    imageId: "service-high-intensity",
+    title: "High Intensity Support",
+    description: "If you have high needs don’t worry our highly qualified Nurses are here to save the day! Our RNs and ENs can provide specialist care supports for Bowel Care, Catheter Care, Medication Administration, Trachea Care, Complex Wound Care, PEG Feeding and Subcutaneous Injections.",
+  },
+  {
+    imageId: "service-community-nursing",
     title: "Community Nursing",
     description: "Our qualified nurses provide comprehensive in-home clinical care tailored to individual health needs. Services include continence assessments, wound care, chronic disease management, medication administration, and health monitoring. We work collaboratively with GPs and allied health professionals to ensure holistic care. Your health, safety, and independence remain our highest priority.",
   },
   {
-    imageId: "service-high-intensity",
+    imageId: "service-domestic-assistance",
     title: "Domestic Care",
     description: "Our domestic care services assist with everyday household tasks such as laundry, meal preparation, tidying, and general household organisation. We aim to reduce stress while supporting independence and routine. Services are tailored to each participant’s preferences and cultural needs. We don’t just clean homes — we support comfortable living.",
   },

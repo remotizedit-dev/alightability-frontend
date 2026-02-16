@@ -12,7 +12,8 @@ import {
     KeyRound,
     Sprout,
     PersonStanding,
-    Landmark
+    Landmark,
+    HeartPulse
 } from "lucide-react";
 import AnimatedContent from "../ui/animated-content";
 
@@ -20,7 +21,12 @@ const services = [
     {
         icon: <UserRoundCheck className="w-8 h-8 text-primary" />,
         title: "Personal Care Services",
-        description: "Compassionate, dignified personal care tailored to every individual’s unique needs — including complex and high-intensity supports.",
+        description: "Compassionate, dignified personal care tailored to every individual’s unique needs for daily living activities.",
+    },
+    {
+        icon: <HeartPulse className="w-8 h-8 text-primary" />,
+        title: "High Intensity Support",
+        description: "Our highly qualified Nurses provide specialist care for complex health needs, ensuring you receive the best support.",
     },
     {
         icon: <Home className="w-8 h-8 text-primary" />,
@@ -124,8 +130,8 @@ const ServicesHighlight = () => {
                             <ServiceCard key={service.title} service={service} index={i + 6} />
                         ))}
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-5/6 mx-auto">
-                        {services.slice(9, 11).map((service, i) => (
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {services.slice(9, 12).map((service, i) => (
                             <ServiceCard key={service.title} service={service} index={i + 9} />
                         ))}
                     </div>
