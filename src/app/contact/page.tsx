@@ -139,14 +139,18 @@ const ContactPage = () => {
                     <Mail className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold text-lg">Email Us</h3>
-                      <p className="text-muted-foreground">contact@alrightability.com</p>
+                       <Button asChild className="mt-1">
+                        <a href="mailto:contact@alrightability.com"><Mail className="mr-2"/>Email</a>
+                      </Button>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold text-lg">Call Us</h3>
-                      <p className="text-muted-foreground">1300 725 611</p>
+                       <Button asChild className="mt-1">
+                        <a href="tel:1300725611"><Phone className="mr-2"/>Call</a>
+                      </Button>
                     </div>
                   </div>
                 </div>

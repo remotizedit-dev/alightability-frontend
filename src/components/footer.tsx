@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { Button } from './ui/button';
+import { Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -40,12 +42,20 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <p className="font-semibold text-primary-foreground">Alright Ability</p>
               <p>Sydney, NSW 2000 Australia</p>
-              <p>
-                <a href="tel:1300725611" className="hover:text-primary-foreground/80 transition-colors">1300 725 611</a>
-              </p>
-              <p>
-                <a href="mailto:contact@alrightability.com" className="hover:text-primary-foreground/80 transition-colors">contact@alrightability.com</a>
-              </p>
+              <div className="flex flex-col space-y-2 pt-2">
+                 <Button asChild variant="ghost" className="justify-start p-1 h-auto hover:bg-primary-foreground/10">
+                  <a href="tel:1300725611">
+                    <Phone className="mr-2 h-4 w-4" />
+                    <span>1300 725 611</span>
+                  </a>
+                </Button>
+                <Button asChild variant="ghost" className="justify-start p-1 h-auto hover:bg-primary-foreground/10">
+                  <a href="mailto:contact@alrightability.com">
+                    <Mail className="mr-2 h-4 w-4" />
+                    <span>contact@alrightability.com</span>
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
