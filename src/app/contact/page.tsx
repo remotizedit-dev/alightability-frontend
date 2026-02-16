@@ -146,7 +146,7 @@ const ContactPage = () => {
                     <div>
                       <h3 className="font-semibold text-lg">Email Us</h3>
                        <Button asChild className="mt-1">
-                        <a href="mailto:contact@alrightability.com"><Mail className="mr-2"/>contact@alrightability.com</a>
+                        <a href="mailto:contact@alrightability.com"><Mail className="mr-2"/>contact@alightability.com.au</a>
                       </Button>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ const ContactPage = () => {
                 </div>
                 <div className="pt-4 border-t">
                   <h3 className="font-semibold text-lg mb-2">Office Hours</h3>
-                  <p className="text-muted-foreground">Monday - Friday: 9:00 AM - 5:00 PM</p>
+                  <p className="text-muted-foreground">Monday - Friday: 10:00 AM - 6:00 PM AEDT</p>
                   <p className="text-muted-foreground">Saturday - Sunday: Closed</p>
                 </div>
               </div>

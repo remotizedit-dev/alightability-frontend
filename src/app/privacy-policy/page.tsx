@@ -75,11 +75,11 @@ const PrivacyPolicyPage = () => {
                             <p>
                                 If you have questions or comments about this Privacy Policy, please contact us at:
                                 <br />
-                                Alright Ability
+                                Alight Ability
                                 <br />
                                 123 Health St, Wellness City, 12345
                                 <br />
-                                contact@alrightability.com
+                                contact@alightability.com
                             </p>
                         </AnimatedContent>
                     </div>

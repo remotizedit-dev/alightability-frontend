@@ -6,26 +6,26 @@ import Dock from '@/components/ui/dock';
 import Navbar from '@/components/navbar';
 
 export const metadata: Metadata = {
-  title: 'Alright Ability',
+  title: 'Alight Ability',
   description: 'Your partner in clinical excellence and patient care.',
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
-    title: 'Alright Ability',
+    title: 'Alight Ability',
     description: 'Your partner in clinical excellence and patient care.',
     images: [
       {
         url: 'https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png',
         width: 512,
         height: 512,
-        alt: 'Alright Ability Logo',
+        alt: 'Aright Ability Logo',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'Alright Ability',
+    title: 'Alight Ability',
     description: 'Your partner in clinical excellence and patient care.',
     images: ['https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png'],
   },

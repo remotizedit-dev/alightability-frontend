@@ -51,7 +51,7 @@ const AboutPage = () => {
               <div>
                 <h2 className="text-3xl font-headline font-bold">Our Story</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                  Alright Ability was founded with a simple yet powerful vision: to create a healthcare experience that prioritizes patients above all else. From our humble beginnings as a small community clinic, we have grown into a leading institution known for clinical innovation and compassionate care.
+                  Alight Ability was founded with a simple yet powerful vision: to create a healthcare experience that prioritizes patients above all else. From our humble beginnings as a small community clinic, we have grown into a leading institution known for clinical innovation and compassionate care.
                 </p>
                 <p className="mt-4 text-lg text-muted-foreground">
                   Our journey has been one of continuous learning and adaptation, always striving to integrate the latest medical advancements while maintaining the personal touch that defines us.
