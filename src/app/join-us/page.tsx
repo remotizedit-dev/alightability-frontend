@@ -27,6 +27,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { MapPin, Briefcase } from "lucide-react";
 import AnimatedContent from "@/components/ui/animated-content";
+import Image from "next/image";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const jobOpenings = [
   {
@@ -69,16 +71,28 @@ const formSchema = z.object({
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
 });
 
+const joinUsBannerImage = PlaceHolderImages.find(p => p.id === 'join-us-banner');
+
 const PageHeader = () => (
     <AnimatedContent distance={50}>
-        <div className="bg-secondary py-20 lg:py-32">
-        <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-headline font-bold">Join Our Team</h1>
-            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-            Become a part of a dedicated team of professionals committed to making a difference in healthcare. Explore our open positions and apply below.
-            </p>
+      {joinUsBannerImage && (
+        <div className="relative py-20 lg:py-32 text-white">
+            <Image
+                src={joinUsBannerImage.imageUrl}
+                alt={joinUsBannerImage.description}
+                fill
+                className="object-cover"
+                data-ai-hint={joinUsBannerImage.imageHint}
+            />
+            <div className="absolute inset-0 bg-black/50" />
+            <div className="relative z-10 container mx-auto px-4 text-center">
+                <h1 className="text-4xl md:text-5xl font-headline font-bold">Join Our Team</h1>
+                <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
+                Become a part of a dedicated team of professionals committed to making a difference in healthcare. Explore our open positions and apply below.
+                </p>
+            </div>
         </div>
-        </div>
+      )}
     </AnimatedContent>
 );
 

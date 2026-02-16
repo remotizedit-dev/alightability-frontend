@@ -6,12 +6,12 @@ import { cn } from "@/lib/utils";
 
 const services = [
   {
-    imageUrl: "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771226099/Content_2_hreh2q.png",
+    imageUrl: "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771235638/Content_2_hreh2q.png",
     title: "Personal Care Services", 
     description: "Our lovely support workers will help you take care of all your Personal care needs such as showering, grooming, dressing, care for incontinence, pressure area care as well as assistance with eating & drinking at meal times and also assistance to take your own medication.",
   },
   {
-    icon: <Home className="w-8 h-8 text-primary" />,
+    imageUrl: "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771235638/Content_2_hreh2q.png",
     title: "Domestic Assistance",
     description: "When you face challenges, due to your condition, to complete your day to day house chores our staff will help you to complete them. We can help you to cook, light clean around the house, tidy up clothes or do the washing.",
   },
@@ -50,13 +50,20 @@ const services = [
 
 const PageHeader = () => (
     <AnimatedContent distance={50}>
-        <div className="relative h-64 lg:h-96 w-full">
+        <div className="relative py-20 lg:py-32 text-white">
             <Image
                 src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771227294/Alight_Ability_December_ztfqyu.png"
                 alt="Alight Ability Services Banner"
                 fill
                 className="object-cover"
             />
+            <div className="absolute inset-0 bg-black/50" />
+            <div className="relative z-10 container mx-auto px-4 text-center">
+                <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Services</h1>
+                <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
+                    A comprehensive range of healthcare services designed to meet your needs at every stage of life.
+                </p>
+            </div>
         </div>
     </AnimatedContent>
 );
