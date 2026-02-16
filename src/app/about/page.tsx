@@ -8,7 +8,7 @@ const PageHeader = () => (
   <AnimatedContent distance={50}>
     <div className="relative py-20 lg:py-52 text-white">
       <Image
-        src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771168903/iStock-525028968_udaeip.jpg"
+        src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771227294/Alight_Ability_December_ztfqyu.png"
         alt="Alight Ability Banner"
         fill 
         className="object-cover"
@@ -37,13 +37,12 @@ const AboutPage = () => {
           <AnimatedContent distance={50} delay={0.2}>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {aboutTeamImage && (
-                <div>
+                <div className="rounded-lg overflow-hidden shadow-xl aspect-video relative">
                   <Image
                     src={aboutTeamImage.imageUrl}
                     alt={aboutTeamImage.description}
-                    width={1024}
-                    height={341}
-                    className="w-4/5 h-auto object-contain mx-auto rounded-lg shadow-xl"
+                    fill
+                    className="object-cover"
                     data-ai-hint={aboutTeamImage.imageHint}
                   />
                 </div>
@@ -62,7 +61,7 @@ const AboutPage = () => {
 
           <AnimatedContent distance={50} delay={0.2}>
             <div className="grid md:grid-cols-2 gap-12 items-center mt-16 lg:mt-24">
-              <div className="md:order-2">
+              <div>
                 <h2 className="text-3xl font-headline font-bold">Mission & Vision</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
                   <strong>Our Mission:</strong> To provide accessible, high-quality, and comprehensive healthcare services to our community, fostering a healthier future for all.
@@ -72,7 +71,7 @@ const AboutPage = () => {
                 </p>
               </div>
               {missionVisionImage && (
-                <div className="rounded-lg overflow-hidden shadow-xl aspect-video relative md:order-1">
+                <div className="rounded-lg overflow-hidden shadow-xl aspect-video relative">
                   <Image
                     src={missionVisionImage.imageUrl}
                     alt={missionVisionImage.description}
