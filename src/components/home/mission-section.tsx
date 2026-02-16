@@ -10,7 +10,7 @@ const MissionSection = () => {
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <AnimatedContent distance={50} delay={0.2}>
-                        <div className="rounded-lg overflow-hidden shadow-xl relative h-96">
+                        <div className="rounded-lg overflow-hidden shadow-xl relative aspect-[4/3]">
                             {missionImage && (
                                 <Image
                                     src={missionImage.imageUrl}
