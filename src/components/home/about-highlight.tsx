@@ -33,7 +33,7 @@ const AboutHighlight = () => {
                                     alt={aboutImage.description}
                                     width={1024}
                                     height={341}
-                                    className="w-4/5 h-auto object-contain mx-auto"
+                                    className="w-4/5 h-auto object-contain mx-auto rounded-lg shadow-xl"
                                     data-ai-hint={aboutImage.imageHint}
                                 />
                             </div>

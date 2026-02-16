@@ -9,13 +9,13 @@
     {
       "id": "about-team",
       "description": "Alight Ability Team",
-      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771224836/Presentation_3_1_azq1lo.jpg",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771243317/Presentation_3_1_azq1lo.png",
       "imageHint": "team photo"
     },
     {
       "id": "mission-nurse",
       "description": "A compassionate nurse smiling warmly, ready to provide care.",
-      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771168903/pexels-rdne-7403011_m91qmr.jpg",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771243032/pexels-rdne-7403011_m91qmr.png",
       "imageHint": "nurse smiling"
     },
     {
@@ -57,7 +57,7 @@
     {
       "id": "service-personal-care",
       "description": "A caregiver assisting an elderly person.",
-      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/q_auto,f_auto,w_auto/Content_2_nzhkhh.png",
+      "imageUrl": "https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771242487/Content_2_nzhkhh.png",
       "imageHint": "caregiver elderly"
     },
     {

@@ -43,7 +43,7 @@ const AboutPage = () => {
                     alt={aboutTeamImage.description}
                     width={1024}
                     height={341}
-                    className="w-4/5 h-auto object-contain mx-auto"
+                    className="w-4/5 h-auto object-contain mx-auto rounded-lg shadow-xl"
                     data-ai-hint={aboutTeamImage.imageHint}
                   />
                 </div>
