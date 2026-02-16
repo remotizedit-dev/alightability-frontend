@@ -8,11 +8,11 @@ const PageHeader = () => (
   <AnimatedContent distance={50}>
     <div className="relative py-20 lg:py-52 text-white">
       <Image
-        src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771168903/iStock-525028968_udaeip.jpg"
-        alt="About Alight Ability"
+        src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771227294/Alight_Ability_December_ztfqyu.png"
+        alt="Alight Ability Banner"
         fill
         className="object-cover"
-        data-ai-hint="happy patient"
+        data-ai-hint="company banner"
       />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 container mx-auto px-4 text-center">
