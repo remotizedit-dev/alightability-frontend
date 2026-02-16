@@ -50,7 +50,7 @@ const Navbar = () => {
           "hidden md:block", // Only show on desktop
           isHomePage
             ? "bg-background shadow-sm" // non-sticky on home page
-            : "fixed top-0 left-0 bg-background shadow-sm", // sticky on other pages
+            : "sticky top-0 left-0 bg-background shadow-sm", // sticky on other pages
           !isHomePage && (hasScrolled ? "-translate-y-[150%]" : "translate-y-0") // hide on scroll only for other pages
         )}
       >
