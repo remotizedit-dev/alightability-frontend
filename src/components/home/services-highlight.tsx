@@ -9,7 +9,10 @@ import {
     Car,
     SprayCan,
     BedDouble,
-    KeyRound
+    KeyRound,
+    Sprout,
+    PersonStanding,
+    Landmark
 } from "lucide-react";
 import AnimatedContent from "../ui/animated-content";
 
@@ -17,22 +20,22 @@ const services = [
     {
         icon: <UserRoundCheck className="w-8 h-8 text-primary" />,
         title: "Personal Care Services",
-        description: "Our support workers help with personal care needs like showering, grooming, and dressing.",
+        description: "Compassionate, dignified personal care tailored to every individual’s unique needs — including complex and high-intensity supports.",
     },
     {
         icon: <Home className="w-8 h-8 text-primary" />,
-        title: "Domestic Assistance",
-        description: "We assist with daily house chores when you face challenges due to your condition.",
+        title: "Community Nursing",
+        description: "Professional community nursing services delivered in the comfort of your home.",
     },
     {
         icon: <ShieldCheck className="w-8 h-8 text-primary" />,
-        title: "High Intensity Support",
-        description: "Our qualified Nurses (RNs & ENs) provide specialist care for high-intensity needs.",
+        title: "Domestic Care",
+        description: "Practical in-home support that makes everyday living easier.",
     },
     {
         icon: <Users className="w-8 h-8 text-primary" />,
         title: "Community Access",
-        description: "We help you get out, promote your independence, and enjoy social and recreational activities.",
+        description: "Empowering meaningful participation in the community with confidence and support.",
     },
     {
         icon: <Car className="w-8 h-8 text-primary" />,
@@ -53,6 +56,21 @@ const services = [
         icon: <KeyRound className="w-8 h-8 text-primary" />,
         title: "Supported Independent Living",
         description: "Access qualified support workers 24/7 in your home for all your care needs with love and respect.",
+    },
+    {
+        icon: <Sprout className="w-8 h-8 text-primary" />,
+        title: "House or Yard Maintenance",
+        description: "We provide lawn mowing, garden maintenance, pruning, and general yard upkeep.",
+    },
+    {
+        icon: <PersonStanding className="w-8 h-8 text-primary" />,
+        title: "Individualized Living Options",
+        description: "Our ILO supports help participants explore and establish customised living arrangements.",
+    },
+    {
+        icon: <Landmark className="w-8 h-8 text-primary" />,
+        title: "Work and Development Orders (WDO) – New South Wales",
+        description: "A WDO allows you to reduce certain fines by completing approved activities instead of making payments.",
     },
 ];
 
@@ -101,9 +119,14 @@ const ServicesHighlight = () => {
                             <ServiceCard key={service.title} service={service} index={i + 3} />
                         ))}
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-5/6 mx-auto">
-                        {services.slice(6, 8).map((service, i) => (
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {services.slice(6, 9).map((service, i) => (
                             <ServiceCard key={service.title} service={service} index={i + 6} />
+                        ))}
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-5/6 mx-auto">
+                        {services.slice(9, 11).map((service, i) => (
+                            <ServiceCard key={service.title} service={service} index={i + 9} />
                         ))}
                     </div>
                 </div>

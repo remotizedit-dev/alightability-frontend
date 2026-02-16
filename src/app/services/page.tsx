@@ -8,22 +8,22 @@ const services = [
   {
     imageId: "service-personal-care",
     title: "Personal Care Services", 
-    description: "Our lovely support workers will help you take care of all your Personal care needs such as showering, grooming, dressing, care for incontinence, pressure area care as well as assistance with eating & drinking at meal times and also assistance to take your own medication.",
+    description: "Our Personal Care services are delivered with respect, dignity, and clinical excellence. We support participants with daily living activities, including showering, dressing, mobility, medication assistance, and high-intensity supports such as PEG feeding, tracheostomy care, and complex bowel management. Our trained staff follow strict clinical protocols to ensure safety and comfort. At Alight Ability, no complexity is too great — we provide care with skill and heart.",
   },
   {
     imageId: "service-domestic-assistance",
-    title: "Domestic Assistance",
-    description: "When you face challenges, due to your condition, to complete your day to day house chores our staff will help you to complete them. We can help you to cook, light clean around the house, tidy up clothes or do the washing.",
+    title: "Community Nursing",
+    description: "Our qualified nurses provide comprehensive in-home clinical care tailored to individual health needs. Services include continence assessments, wound care, chronic disease management, medication administration, and health monitoring. We work collaboratively with GPs and allied health professionals to ensure holistic care. Your health, safety, and independence remain our highest priority.",
   },
   {
     imageId: "service-high-intensity",
-    title: "High Intensity Support",
-    description: "If you have high needs don’t worry our highly qualified Nurses are here to save the day! Our RNs and ENs can provide specialist care supports for Bowel Care, Catheter Care, Medication Administration, Trachea Care, Complex Wound Care, PEG Feeding and Subcutaneous Injections.",
+    title: "Domestic Care",
+    description: "Our domestic care services assist with everyday household tasks such as laundry, meal preparation, tidying, and general household organisation. We aim to reduce stress while supporting independence and routine. Services are tailored to each participant’s preferences and cultural needs. We don’t just clean homes — we support comfortable living.",
   },
   {
     imageId: "service-community-access",
     title: "Community Access, Social and Recreational Activities",
-    description: "Our helpful support workers are always ready to take you out to promote your true independence. We can help you go to and from appointments, shops, carry shopping bags, attend games and events, go to Gym, meet families and friends or to join community programs and religious events. Someday you might feel a bit creative so our imaginative support workers can help you to do a bit of arts and crafts. You can also try out some cooking or bake a beautiful cake with your friends. You can also attend other activities such as fitness classes, golf, dance classes, gym etc.",
+    description: "We support participants to engage in social, cultural, recreational, and community activities that matter to them. Whether attending appointments, events, classes, or social outings, our staff provide reliable and encouraging support. We value inclusion and independence while ensuring safety at all times. Community connection builds confidence — and we’re here to walk beside you.",
   },
   {
     imageId: "service-travel-support",
@@ -44,6 +44,21 @@ const services = [
     imageId: "service-independent-living",
     title: "Supported Independent Living",
     description: "In Supported Independent Living with us you have access to qualified support workers 24/7 in your home so all your care needs will be taken care of with love and respect. We provide you a quality home where you can feel safe and supported by your support workers. You can socialise with other residents and play social games or engage in activities which can help to build your skills making you more independent. We will help you to achieve your goals by having supports tailored to your needs and make sure that you have fun doing it.",
+  },
+  {
+    imageId: "service-yard-maintenance",
+    title: "House or Yard Maintenance",
+    description: "We provide lawn mowing, garden maintenance, pruning, and general yard upkeep to ensure outdoor areas remain safe and usable. A well-maintained garden enhances mental wellbeing and pride in one’s home. Our team works respectfully and efficiently to maintain your outdoor space. We help create environments where participants feel comfortable and secure.",
+  },
+  {
+    imageId: "service-ilo",
+    title: "Individualized Living Options",
+    description: "Our ILO supports help participants explore and establish customised living arrangements that suit their preferences and goals. We work collaboratively to design supports that promote independence while ensuring safety and stability. Options may include host arrangements, co-residency, or tailored in-home supports. We focus on building sustainable, long-term living solutions.",
+  },
+  {
+    imageId: "service-wdo",
+    title: "Work and Development Orders (WDO) – New South Wales",
+    description: "Alight Ability supports eligible individuals in New South Wales to apply for and participate in a Work and Development Order (WDO) through Revenue NSW. A WDO allows you to reduce certain fines by completing approved activities instead of making payments. We provide respectful, confidential, and structured support throughout the process. Our goal is to ease financial pressure while helping you build stability and independence.",
   },
 ];
 
