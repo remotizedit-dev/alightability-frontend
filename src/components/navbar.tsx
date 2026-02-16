@@ -42,32 +42,26 @@ const Navbar = () => {
 
   const isHomePage = pathname === '/';
 
-  const logoSrc = isHomePage 
-    ? "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771152105/icon_white_ybhufg.png"
-    : "https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png";
-  
-  const inactiveTextColor = isHomePage ? "text-white" : "text-foreground";
-  
-  const logoSize = isHomePage ? 80 : 60;
-
   return (
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 w-full z-40 transition-all duration-300 ease-in-out",
+          "w-full z-40 transition-all duration-300 ease-in-out",
           "hidden md:block", // Only show on desktop
-          isHomePage ? "pt-4" : "bg-background shadow-sm",
-          hasScrolled ? "-translate-y-[150%]" : "translate-y-0",
+          isHomePage
+            ? "bg-background shadow-sm" // non-sticky on home page
+            : "fixed top-0 left-0 bg-background shadow-sm", // sticky on other pages
+          !isHomePage && (hasScrolled ? "-translate-y-[150%]" : "translate-y-0") // hide on scroll only for other pages
         )}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20 px-6">
             <Link href="/">
-              <Image 
-                src={logoSrc} 
-                alt="Alright Ability Logo" 
-                width={logoSize} 
-                height={logoSize}
+              <Image
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png"
+                alt="Alright Ability Logo"
+                width={60}
+                height={60}
                 className="object-contain"
                 priority
               />
@@ -79,7 +73,7 @@ const Navbar = () => {
                   href={link.href}
                   className={cn(
                     "text-lg font-bold transition-colors hover:text-primary",
-                    pathname === link.href ? "text-primary" : inactiveTextColor
+                    pathname === link.href ? "text-primary" : "text-foreground"
                   )}
                 >
                   {link.label}
