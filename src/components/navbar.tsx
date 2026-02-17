@@ -84,23 +84,21 @@ const Navbar = () => {
         </div>
       </header>
 
-      {/* Mobile Header */}
-      <header className="md:hidden sticky top-0 w-full z-30 bg-background shadow-sm">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center h-16">
+      {/* Mobile Header - Floating Pill */}
+      <div className="md:hidden fixed top-0 w-full z-30 flex justify-center pt-4 pointer-events-none">
+        <div className="flex items-center justify-center h-12 px-4 bg-background/50 backdrop-blur-xl rounded-full shadow-lg pointer-events-auto">
             <Link href="/">
                 <Image
                     src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771308257/Frame_951_nqaquk.png"
                     alt="Alright Ability Logo"
-                    width={150}
-                    height={50}
+                    width={120}
+                    height={40}
                     className="object-contain"
                     priority
                 />
             </Link>
-          </div>
         </div>
-      </header>
+      </div>
 
       {/* Mobile Menu (Sheet) is kept for mobile navigation, but is not triggered from the top bar anymore. The Dock is the primary nav on mobile, but this sheet can be triggered if a hamburger icon is added elsewhere. For now, it's unused. */}
       <div
