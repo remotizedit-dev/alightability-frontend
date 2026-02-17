@@ -49,7 +49,7 @@ export default function RootLayout({
       <body className="font-body bg-background text-foreground">
         <div className="flex min-h-screen flex-col">
           <Navbar />
-          <main className="flex-grow pb-24">{children}</main>
+          <main className="flex-grow pb-24 pt-16 md:pt-0">{children}</main>
           <Footer />
         </div>
         <Dock />
