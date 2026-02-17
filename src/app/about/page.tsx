@@ -8,7 +8,7 @@ const PageHeader = () => (
   <AnimatedContent distance={50}>
     <div className="relative py-20 lg:py-32 text-white">
       <Image
-        src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771320784/iStock-525028968_sq1paj.png"
+        src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771328219/iStock-525028968_sq1paj.png"
         alt="Alight Ability Banner"
         fill 
         className="object-cover"
