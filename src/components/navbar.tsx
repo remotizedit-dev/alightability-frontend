@@ -86,7 +86,7 @@ const Navbar = () => {
 
       {/* Mobile Header - Floating Pill */}
       <div className="md:hidden fixed top-0 w-full z-30 flex justify-center pt-4 pointer-events-none">
-        <div className="flex items-center justify-center h-12 px-4 bg-background/50 backdrop-blur-xl rounded-full shadow-lg pointer-events-auto">
+        <div className="flex items-center justify-center h-12 px-4 bg-white rounded-full shadow-lg pointer-events-auto">
             <Link href="/">
                 <Image
                     src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771308257/Frame_951_nqaquk.png"
