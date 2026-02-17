@@ -10,7 +10,7 @@ const HeroSection = () => {
     const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
 
     return (
-        <section className="relative h-[85vh] min-h-[600px] w-full flex items-center justify-center text-center text-white">
+        <section className="relative h-[85vh] min-h-[600px] w-full flex items-center justify-center text-center text-white -mt-16 md:mt-0">
             {heroImage && (
                 <Image
                     src={heroImage.imageUrl}
