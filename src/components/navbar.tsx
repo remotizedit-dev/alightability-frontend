@@ -58,9 +58,9 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20 px-6">
             <Link href="/">
               <Image
-                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png"
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771308257/Frame_951_nqaquk.png"
                 alt="Alright Ability Logo"
-                width={60}
+                width={180}
                 height={60}
                 className="object-contain"
                 priority
