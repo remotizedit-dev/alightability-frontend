@@ -86,7 +86,7 @@ const PageHeader = () => (
             />
             <div className="absolute inset-0 bg-black/50" />
             <div className="relative z-10 container mx-auto px-4 text-center">
-                <h1 className="text-4xl md:text-5xl font-headline font-bold">Join Our Team</h1>
+                <h1 className="text-4xl md:text-5xl font-headline font-bold italic">Join Our Team</h1>
                 <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
                 Become a part of a dedicated team of professionals committed to making a difference in healthcare. Explore our open positions and apply below.
                 </p>

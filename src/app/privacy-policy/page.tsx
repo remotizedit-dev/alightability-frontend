@@ -4,7 +4,7 @@ const PageHeader = () => (
     <AnimatedContent distance={50}>
         <div className="bg-secondary py-20 lg:py-32">
             <div className="container mx-auto px-4 text-center">
-                <h1 className="text-4xl md:text-5xl font-headline font-bold">Privacy Policy</h1>
+                <h1 className="text-4xl md:text-5xl font-headline font-bold italic">Privacy Policy</h1>
                 <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
                 Alight Health Services Pty Ltd ensures private access and services to support participants to uphold and protect their rights to user privacy. The policy is regulated throughout all our Staff, Management and Support Workers.
             

@@ -66,7 +66,7 @@ const ContactPage = () => {
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="relative z-10 container mx-auto px-4 text-center">
-                    <h1 className="text-4xl md:text-5xl font-headline font-bold">Get In Touch</h1>
+                    <h1 className="text-4xl md:text-5xl font-headline font-bold italic">Get In Touch</h1>
                     <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
                         We're here to help. For any questions about our services please reach out.
                     </p>

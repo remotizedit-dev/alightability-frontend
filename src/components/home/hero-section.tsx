@@ -24,7 +24,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-black/50" />
             <div className="relative z-10 container mx-auto px-4">
                 <AnimatedContent distance={50}>
-                    <h1 className="text-4xl md:text-6xl font-headline font-bold">
+                    <h1 className="text-4xl md:text-6xl font-headline font-bold italic">
                         <SplitText>Alight Your Ability</SplitText>
                     </h1>
                 </AnimatedContent>
