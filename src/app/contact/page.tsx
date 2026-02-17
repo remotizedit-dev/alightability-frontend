@@ -71,12 +71,12 @@ const ContactPage = () => {
                         We're here to help. For any questions about our services please reach out.
                     </p>
                     <AnimatedContent distance={50} delay={0.6}>
-  <div className=" mt-8 flex items-center justify-center gap-4 ">
+  <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
     
     <Button
       asChild
       size="lg"
-      className="w-64 h-12 flex items-center justify-center"
+      className="w-full max-w-sm sm:w-64 h-12 flex items-center justify-center"
     >
       <Link href="tel:1300725611" className="flex items-center justify-center w-full">
         <Phone className="mr-2" />
@@ -87,7 +87,7 @@ const ContactPage = () => {
     <Button
       asChild
       size="lg"
-      className="w-64 h-12 border-white text-white flex items-center justify-center"
+      className="w-full max-w-sm sm:w-64 h-12 border-white text-white flex items-center justify-center"
     >
       <a
         href="mailto:contact@alrightability.com.au"
