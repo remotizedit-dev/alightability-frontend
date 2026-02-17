@@ -19,6 +19,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import AnimatedContent from "@/components/ui/animated-content";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import Link from "next/link";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters."),
@@ -69,6 +70,16 @@ const ContactPage = () => {
                     <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
                         We're here to help. Whether you have a question about our services or need support, please reach out.
                     </p>
+                    <AnimatedContent distance={50} delay={0.6}>
+                        <div className="mt-8 flex justify-center">
+                            <Button asChild size="lg">
+                                <Link href="tel:1300725611">
+                                    <Phone />
+                                    Call 1300 725 611
+                                </Link>
+                            </Button>
+                        </div>
+                    </AnimatedContent>
                 </div>
             </div>
         </AnimatedContent>
