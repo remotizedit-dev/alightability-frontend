@@ -102,7 +102,7 @@ const ContactPage = () => {
 </AnimatedContent>
                 </div>
             </div>
-        </AnimatedContent>
+</AnimatedContent>
       )}
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4">
