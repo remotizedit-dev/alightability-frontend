@@ -68,24 +68,38 @@ const ContactPage = () => {
                 <div className="relative z-10 container mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-5xl font-headline font-bold">Get In Touch</h1>
                     <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
-                        We're here to help. Whether you have a question about our services or need support, please reach out.
+                        We're here to help. For any questions about our services please reach out.
                     </p>
                     <AnimatedContent distance={50} delay={0.6}>
-                        <div className="mt-8 flex flex-wrap justify-center gap-4">
-                            <Button asChild size="lg">
-                                <Link href="tel:1300725611">
-                                    <Phone />
-                                    Call 1300 725 611
-                                </Link>
-                            </Button>
-                            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                                <a href="mailto:contact@alightability.com.au">
-                                    <Mail />
-                                    Email Us
-                                </a>
-                            </Button>
-                        </div>
-                    </AnimatedContent>
+  <div className="mt-8 flex flex-wrap justify-center gap-4">
+    
+    <Button
+      asChild
+      size="lg"
+      className="w-64 h-12 flex items-center justify-center"
+    >
+      <Link href="tel:1300725611" className="flex items-center justify-center w-full">
+        <Phone className="mr-2" />
+        Call 1300 725 611
+      </Link>
+    </Button>
+
+    <Button
+      asChild
+      size="lg"
+      className="w-64 h-12 border-white text-white flex items-center justify-center"
+    >
+      <a
+        href="mailto:contact@alrightability.com.au"
+        className="flex items-center justify-center w-full"
+      >
+        <Mail className="mr-2" />
+        contact@alrightability.com.au
+      </a>
+    </Button>
+
+  </div>
+</AnimatedContent>
                 </div>
             </div>
         </AnimatedContent>
