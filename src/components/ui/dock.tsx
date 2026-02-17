@@ -22,15 +22,27 @@ const Dock = () => {
   const dockRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
   const [hasScrolled, setHasScrolled] = useState(false);
+  const [isAtBottom, setIsAtBottom] = useState(false);
   const isMobile = useIsMobile();
 
   useEffect(() => {
     const handleScroll = () => {
       setHasScrolled(window.scrollY > 20);
+
+      // Check if the user has scrolled to the bottom of the page
+      const footer = document.querySelector('footer');
+      if (footer) {
+          const footerTop = footer.getBoundingClientRect().top;
+          setIsAtBottom(footerTop < window.innerHeight);
+      } else {
+          const isBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 100; // 100px buffer
+          setIsAtBottom(isBottom);
+      }
     };
-    window.addEventListener('scroll', handleScroll);
-    handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll(); // Initial check on mount
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
@@ -69,12 +81,15 @@ const Dock = () => {
     };
   }, []);
 
+  const isVisible = (isMobile || hasScrolled) && !isAtBottom;
+
   return (
     <div
       ref={hoverAreaRef}
       className={cn(
         "fixed bottom-4 left-0 right-0 h-14 flex justify-center z-50 transition-transform duration-300 ease-in-out",
-        (isMobile || hasScrolled) ? 'translate-y-0' : 'translate-y-24 md:hidden'
+        isVisible ? 'translate-y-0' : 'translate-y-24',
+        !isMobile && !hasScrolled ? 'md:hidden' : '',
       )}
     >
       <TooltipProvider>
