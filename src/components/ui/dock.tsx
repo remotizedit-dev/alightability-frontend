@@ -46,6 +46,9 @@ const Dock = () => {
   }, []);
 
   useEffect(() => {
+    // On mobile, there's no mouse to move, so we disable the animation.
+    if (isMobile) return;
+
     const hoverArea = hoverAreaRef.current;
     const dock = dockRef.current;
     if (!hoverArea || !dock) return;
@@ -79,7 +82,7 @@ const Dock = () => {
         hoverArea.removeEventListener('mousemove', handleMouseMove);
         hoverArea.removeEventListener('mouseleave', handleMouseLeave);
     };
-  }, []);
+  }, [isMobile]); // Rerun this effect if isMobile changes
 
   const isVisible = (isMobile || hasScrolled) && !isAtBottom;
 
@@ -97,26 +100,41 @@ const Dock = () => {
               ref={dockRef}
               className="flex items-center p-1 space-x-1 bg-background/50 backdrop-blur-xl border rounded-2xl shadow-lg"
           >
-              {navLinks.map((link) => (
-                  <Tooltip key={link.href} delayDuration={0}>
-                      <TooltipTrigger asChild>
-                          <Link
-                          href={link.href}
-                          className={cn(
-                              "flex items-center justify-center w-12 h-12 rounded-full transition-colors will-change-transform origin-bottom",
-                              pathname === link.href
-                              ? "bg-primary text-primary-foreground"
-                              : "text-foreground hover:bg-accent"
-                          )}
-                          >
-                              <link.icon className="w-6 h-6" />
-                          </Link>
-                      </TooltipTrigger>
-                      <TooltipContent side="top">
-                          <p>{link.label}</p>
-                      </TooltipContent>
-                  </Tooltip>
-              ))}
+            {navLinks.map((link) =>
+              isMobile ? (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={cn(
+                    'flex items-center justify-center w-12 h-12 rounded-full transition-colors will-change-transform origin-bottom',
+                    pathname === link.href
+                      ? 'bg-primary text-primary-foreground'
+                      : 'text-foreground hover:bg-accent'
+                  )}
+                >
+                  <link.icon className="w-6 h-6" />
+                </Link>
+              ) : (
+                <Tooltip key={link.href} delayDuration={0}>
+                  <TooltipTrigger asChild>
+                    <Link
+                      href={link.href}
+                      className={cn(
+                        'flex items-center justify-center w-12 h-12 rounded-full transition-colors will-change-transform origin-bottom',
+                        pathname === link.href
+                          ? 'bg-primary text-primary-foreground'
+                          : 'text-foreground hover:bg-accent'
+                      )}
+                    >
+                      <link.icon className="w-6 h-6" />
+                    </Link>
+                  </TooltipTrigger>
+                  <TooltipContent side="top">
+                    <p>{link.label}</p>
+                  </TooltipContent>
+                </Tooltip>
+              )
+            )}
           </div>
       </TooltipProvider>
     </div>
