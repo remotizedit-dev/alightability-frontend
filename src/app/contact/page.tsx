@@ -71,7 +71,7 @@ const ContactPage = () => {
                         We're here to help. For any questions about our services please reach out.
                     </p>
                     <AnimatedContent distance={50} delay={0.6}>
-  <div className="mt-8 flex flex-wrap justify-center gap-4">
+  <div className=" mt-8 flex items-center justify-center gap-4 ">
     
     <Button
       asChild
