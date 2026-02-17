@@ -4,7 +4,6 @@ import { Toaster } from '@/components/ui/toaster';
 import Footer from '@/components/footer';
 import Dock from '@/components/ui/dock';
 import Navbar from '@/components/navbar';
-import FloatingNdisLogo from '@/components/ui/floating-ndis-logo';
 
 export const metadata: Metadata = {
   title: 'Alight Ability',
@@ -48,7 +47,6 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body bg-background text-foreground">
-        <FloatingNdisLogo />
         <div className="flex min-h-screen flex-col">
           <Navbar />
           <main className="flex-grow pb-24">{children}</main>
