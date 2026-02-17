@@ -71,12 +71,18 @@ const ContactPage = () => {
                         We're here to help. Whether you have a question about our services or need support, please reach out.
                     </p>
                     <AnimatedContent distance={50} delay={0.6}>
-                        <div className="mt-8 flex justify-center">
+                        <div className="mt-8 flex flex-wrap justify-center gap-4">
                             <Button asChild size="lg">
                                 <Link href="tel:1300725611">
                                     <Phone />
                                     Call 1300 725 611
                                 </Link>
+                            </Button>
+                            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+                                <a href="mailto:contact@alightability.com.au">
+                                    <Mail />
+                                    Email Us
+                                </a>
                             </Button>
                         </div>
                     </AnimatedContent>
@@ -171,7 +177,7 @@ const ContactPage = () => {
                     <div>
                       <h3 className="font-semibold text-lg">Email Us</h3>
                        <Button asChild className="mt-1">
-                        <a href="mailto:contact@alrightability.com"><Mail className="mr-2"/>contact@alightability.com.au</a>
+                        <a href="mailto:contact@alrightability.com"><Mail className="mr-2"/>contact@alrightability.com.au</a>
                       </Button>
                     </div>
                   </div>
