@@ -59,7 +59,7 @@ const Navbar = () => {
             <Link href="/">
               <Image
                 src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771308257/Frame_951_nqaquk.png"
-                alt="Alright Ability Logo"
+                alt="Alight Ability Logo"
                 width={180}
                 height={60}
                 className="object-contain"
@@ -90,7 +90,7 @@ const Navbar = () => {
             <Link href="/">
                 <Image
                     src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771308257/Frame_951_nqaquk.png"
-                    alt="Alright Ability Logo"
+                    alt="Alight Ability Logo"
                     width={120}
                     height={40}
                     className="object-contain"
@@ -116,7 +116,7 @@ const Navbar = () => {
             <Link href="/" onClick={() => setIsOpen(false)}>
               <Image 
                 src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771094201/WhatsApp_Image_2026-02-10_at_13.14.36-removebg-preview_sal0z3.png" 
-                alt="Alright Ability Logo" 
+                alt="Alight Ability Logo" 
                 width={150} 
                 height={50}
                 className="object-contain"

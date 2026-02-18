@@ -1,4 +1,4 @@
-# **App Name**: Alright Ability
+# **App Name**: Alight Ability
 
 ## Core Features:
 

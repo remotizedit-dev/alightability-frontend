@@ -51,9 +51,9 @@ const Footer = () => {
                   </a>
                 </Button>
                 <Button asChild variant="ghost" className="justify-start p-1 h-auto hover:bg-primary-foreground/10">
-                  <a href="mailto:contact@alrightability.com">
+                  <a href="mailto:contact@alightability.com">
                     <Mail className="mr-2 h-4 w-4" />
-                    <span>contact@alrightability.com</span>
+                    <span>contact@alightability.com.au</span>
                   </a>
                 </Button>
               </div>
@@ -63,9 +63,9 @@ const Footer = () => {
       </div>
       <div className="border-t border-primary-foreground/20 bg-[#01ACBE]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-xs text-primary-foreground/80">
-          <p>Copyright &copy; {new Date().getFullYear()} Alright Ability. All Rights Reserved.</p>
-          <p className="mt-2 text-black">
-            Developed by RemotizeIT | <a href="mailto:info@remotizedit.com" className="hover:underline">info@remotizedit.com</a>
+          <p>Copyright &copy; {new Date().getFullYear()} Alight Ability. All Rights Reserved.</p>
+          <p className="mt-2 text--primary-foreground/80">
+            Developed by RemotizedIT | 
           </p>
         </div>
       </div>

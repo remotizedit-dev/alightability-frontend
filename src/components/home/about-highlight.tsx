@@ -13,7 +13,7 @@ const AboutHighlight = () => {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <AnimatedContent distance={50}>
                         <div>
-                            <h2 className="text-3xl md:text-4xl font-headline font-bold">About Alright Ability</h2>
+                            <h2 className="text-3xl md:text-4xl font-headline font-bold">About Alight Ability</h2>
                             <p className="mt-4 text-lg text-muted-foreground">
                                 Alight Ability is established as a NDIS service provider in the Greater Sydney Region. Our team of passionate and skilled employees focus on helping our lovely participants along with their family to achieve all their goals. At Alight Ability our priority is caring for our participants with love and affection to provide true people centred quality supports and services.
                             </p>

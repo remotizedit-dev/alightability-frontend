@@ -90,11 +90,11 @@ const ContactPage = () => {
       className="w-full max-w-sm sm:w-64 h-12 border-white text-white flex items-center justify-center"
     >
       <a
-        href="mailto:contact@alrightability.com.au"
+        href="mailto:contact@alightability.com.au"
         className="flex items-center justify-center w-full"
       >
         <Mail className="mr-2" />
-        contact@alrightability.com.au
+        contact@alightability.com.au
       </a>
     </Button>
 
@@ -120,7 +120,7 @@ const ContactPage = () => {
                           <FormItem>
                             <FormLabel>Full Name</FormLabel>
                             <FormControl>
-                              <Input placeholder="John Hill" {...field} />
+                              <Input placeholder="Enter Your Name" {...field} />
                             </FormControl>
                             <FormMessage />
                           </FormItem>
@@ -133,7 +133,7 @@ const ContactPage = () => {
                           <FormItem>
                             <FormLabel>Email Address</FormLabel>
                             <FormControl>
-                              <Input placeholder="john.hill@example.com" {...field} />
+                              <Input placeholder="example@example.com" {...field} />
                             </FormControl>
                             <FormMessage />
                           </FormItem>
@@ -191,7 +191,7 @@ const ContactPage = () => {
                     <div>
                       <h3 className="font-semibold text-lg">Email Us</h3>
                        <Button asChild className="mt-1">
-                        <a href="mailto:contact@alrightability.com"><Mail className="mr-2"/>contact@alrightability.com.au</a>
+                        <a href="mailto:contact@alightability.com"><Mail className="mr-2"/>contact@alightability.com.au</a>
                       </Button>
                     </div>
                   </div>

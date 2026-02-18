@@ -7,17 +7,17 @@ const Testimonials = () => {
         {
             name: "Sarah L.",
             title: "Patient",
-            quote: "The care I received at Alright Ability was exceptional. The staff were attentive, and I felt genuinely cared for throughout my treatment.",
+            quote: "The care I received at Alight Ability was exceptional. The staff were attentive, and I felt genuinely cared for throughout my treatment.",
         },
         {
             name: "Dr. Michael C.",
             title: "Partner Physician",
-            quote: "Collaborating with Alright Ability has elevated my practice. Their commitment to quality and patient outcomes is second to none.",
+            quote: "Collaborating with Alight Ability has elevated my practice. Their commitment to quality and patient outcomes is second to none.",
         },
         {
             name: "Jane D.",
             title: "Family Member",
-            quote: "Navigating healthcare for my mother was challenging until we found Alright Ability. They made the process seamless and stress-free.",
+            quote: "Navigating healthcare for my mother was challenging until we found Alight Ability. They made the process seamless and stress-free.",
         },
     ];
 
