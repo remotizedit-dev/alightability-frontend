@@ -202,7 +202,7 @@ ${values.message}
                                                         <FormItem>
                                                             <FormLabel>Full Name</FormLabel>
                                                             <FormControl>
-                                                                <Input placeholder="John Doe" {...field} />
+                                                                <Input placeholder="Enter your name" {...field} />
                                                             </FormControl>
                                                             <FormMessage />
                                                         </FormItem>
@@ -215,7 +215,7 @@ ${values.message}
                                                         <FormItem>
                                                             <FormLabel>Email Address</FormLabel>
                                                             <FormControl>
-                                                                <Input type="email" placeholder="john.doe@example.com" {...field} />
+                                                                <Input type="email" placeholder="Enter your email address" {...field} />
                                                             </FormControl>
                                                             <FormMessage />
                                                         </FormItem>
