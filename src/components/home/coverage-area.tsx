@@ -9,7 +9,7 @@ const CoverageArea = () => {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-headline font-bold">The Area We Cover</h2>
                         <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-                            We proudly provide services across the Greater Sydney region, ensuring our community has access to quality care.
+                            We proudly provide services across Sydney, Canberra, Adeliade & Perth , ensuring our community has access to quality care.
                         </p>
                     </div>
                 </AnimatedContent>
