@@ -58,7 +58,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20 px-6">
             <Link href="/">
               <Image
-                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771308257/Frame_951_nqaquk.png"
+                src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771488164/Frame_951_nqaquk.png"
                 alt="Alight Ability Logo"
                 width={180}
                 height={60}
@@ -89,7 +89,7 @@ const Navbar = () => {
         <div className="flex items-center justify-center h-12 px-4 bg-white rounded-full shadow-lg pointer-events-auto">
             <Link href="/">
                 <Image
-                    src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771308257/Frame_951_nqaquk.png"
+                    src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771488164/Frame_951_nqaquk.png"
                     alt="Alight Ability Logo"
                     width={120}
                     height={40}
