@@ -16,8 +16,8 @@ const CoverageArea = () => {
                 <AnimatedContent distance={50} delay={0.2}>
                     <div className="max-w-4xl mx-auto">
                         <Image
-                            src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771150749/Frame_936_pd5twg.png"
-                            alt="Map of Australia highlighting the Greater Sydney Region"
+                            src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771567772/Frame_967_ycmohd.png"
+                            alt="Map of Australia highlighting the Sydney, canberra, Adelaide, Perth Region"
                             width={1024}
                             height={768}
                             className="w-full h-auto object-contain rounded-lg"
