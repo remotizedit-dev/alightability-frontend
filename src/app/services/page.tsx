@@ -37,7 +37,7 @@ const services = [
   },
   {
     imageId: "service-cleaning-maintenance",
-    title: "Cleaning and Home Maintenance Support",
+    title: "Cleaning & Other Household Activities",
     description: "We provide professional home maintenance services including regular cleaning, deep cleaning, and specialist forensic cleaning. Our team approaches every home with dignity, discretion, and compassion — particularly for participants experiencing complex life circumstances. We understand that situations can become overwhelming, and we are here to help without stigma. A clean and safe home promotes wellbeing and peace of mind.",
   },
   {

@@ -50,7 +50,7 @@ const services = [
     },
     {
         icon: <SprayCan className="w-8 h-8 text-primary" />,
-        title: "Cleaning & Home Maintenance",
+        title: "Cleaning & Other Household Activities",
         description: "Our experienced cleaners can help you with cleaning and maintaining your house and yard.",
     },
     {

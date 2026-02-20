@@ -37,7 +37,7 @@ const AboutPage = () => {
           <AnimatedContent distance={50} delay={0.2}>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {aboutTeamImage && (
-                <div className="rounded-lg overflow-hidden shadow-xl aspect-video relative">
+                <div className="rounded-lg overflow-hidden shadow-xl aspect-square relative">
                   <Image
                     src={aboutTeamImage.imageUrl}
                     alt={aboutTeamImage.description}
@@ -71,7 +71,7 @@ const AboutPage = () => {
                 </p>
               </div>
               {missionVisionImage && (
-                <div className="rounded-lg overflow-hidden shadow-xl aspect-video relative">
+                <div className="rounded-lg overflow-hidden shadow-xl aspect-square relative">
                   <Image
                     src={missionVisionImage.imageUrl}
                     alt={missionVisionImage.description}
@@ -96,10 +96,10 @@ const AboutPage = () => {
               <Card>
                 <CardHeader>
                   <Award className="mx-auto h-10 w-10 text-primary mb-4" />
-                  <CardTitle className="font-headline">Excellence</CardTitle>
+                  <CardTitle className="font-headline">Quality</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">We strive for the highest standards in all we do, from clinical care to patient support.</p>
+                  <p className="text-muted-foreground">Our top priority is quality service to ensure our participants are always happy.</p>
                 </CardContent>
               </Card>
             </AnimatedContent>
@@ -107,10 +107,10 @@ const AboutPage = () => {
               <Card>
                 <CardHeader>
                   <Target className="mx-auto h-10 w-10 text-primary mb-4" />
-                  <CardTitle className="font-headline">Integrity</CardTitle>
+                  <CardTitle className="font-headline">Compassion</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">We are committed to ethical practices, transparency, and earning the trust of our patients.</p>
+                  <p className="text-muted-foreground">Caring for someone has to involve the right amount of compassion to provide the best care.</p>
                 </CardContent>
               </Card>
             </AnimatedContent>
@@ -118,10 +118,10 @@ const AboutPage = () => {
               <Card>
                 <CardHeader>
                   <Users className="mx-auto h-10 w-10 text-primary mb-4" />
-                  <CardTitle className="font-headline">Community</CardTitle>
+                  <CardTitle className="font-headline">Improvement</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">We are dedicated to serving and uplifting our community through health and wellness initiatives.</p>
+                  <p className="text-muted-foreground">We will constantly strive hard to improve our services and keep learning to provide the best service.</p>
                 </CardContent>
               </Card>
             </AnimatedContent>
