@@ -7,7 +7,7 @@ import Navbar from '@/components/navbar';
 
 export const metadata: Metadata = {
   title: 'Alight Ability',
-  description: 'Your partner in clinical excellence and patient care.',
+  description: 'ALIGHTING YOUR ABILITY STARTS HERE.',
   icons: {
     icon: '/favicon.ico',
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'Your partner in clinical excellence and patient care.',
     images: [
       {
-        url: 'https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png',
+        url: 'https://res.cloudinary.com/dyp8op8ov/image/upload/v1771223206/100_icon_vckor2.png',
         width: 512,
         height: 512,
         alt: 'Aright Ability Logo',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary',
     title: 'Alight Ability',
     description: 'Your partner in clinical excellence and patient care.',
-    images: ['https://res.cloudinary.com/dyp8op8ov/image/upload/v1771135406/square_alightability_icon_wgw2y9.png'],
+    images: ['https://res.cloudinary.com/dyp8op8ov/image/upload/v1771223206/100_icon_vckor2.png'],
   },
 };
 
