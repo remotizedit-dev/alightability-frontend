@@ -4,7 +4,7 @@ import { useRef, useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, User, Stethoscope, Mail, Briefcase, LucideIcon } from 'lucide-react';
+import { Home, User, Stethoscope, Mail, Briefcase, LucideIcon, HeartPulse, LucideHeartPulse, HeartPulseIcon, HeartHandshake } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import { useIsMobile } from '@/hooks/use-mobile';
@@ -12,7 +12,7 @@ import { useIsMobile } from '@/hooks/use-mobile';
 const navLinks: { href: string; label: string; icon: LucideIcon }[] = [
   { href: "/", label: "Home", icon: Home },
   { href: "/about", label: "About Us", icon: User },
-  { href: "/services", label: "Our Services", icon: Stethoscope },
+  { href: "/services", label: "Our Services", icon: HeartHandshake },
   { href: "/contact", label: "Contact Us", icon: Mail },
   { href: "/join-us", label: "Join Us", icon: Briefcase },
 ];
