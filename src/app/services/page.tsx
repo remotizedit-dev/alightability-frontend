@@ -71,13 +71,13 @@ const services = [
 const PageHeader = () => (
   <AnimatedContent distance={50}> 
   <div className="relative py-20 lg:py-32 text-white"> 
-    <Image src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771249940/Frame_945_s3h1iq.png" 
+    <Image src="https://res.cloudinary.com/dyp8op8ov/image/upload/v1771839935/Frame_945_s3h1iq_b40coo.png" 
     alt="Alight Ability Banner" 
     fill className="object-cover" 
     data-ai-hint="company banner" />
     <div className="absolute inset-0 bg-black/50" /> 
     <div className="relative z-10 container mx-auto px-4 text-center"> 
-      <h1 className="text-4xl md:text-5xl font-headline font-bold">About Alight Ability</h1> 
+      <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Services</h1> 
       <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90"> Learn about our journey, our mission, and the dedicated team committed to your health and well-being. </p> 
       </div> 
       </div> 

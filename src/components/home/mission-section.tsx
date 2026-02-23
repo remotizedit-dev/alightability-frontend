@@ -24,10 +24,14 @@ const MissionSection = () => {
                     </AnimatedContent>
                     <AnimatedContent distance={50}>
                         <div>
-                            <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Mission</h2>
+                            <h2 className="text-3xl md:text-4xl font-headline font-bold">What Makes Us Different</h2>
                             <p className="mt-4 text-lg text-muted-foreground">
-                                Our mission is to help you alight your abilities so that you can maximise your independence and live a quality & happy life. We want to be the most loved provider in Australia by providing you with a safe and nurturing environment which will help you to flourish in life.
+                            At Alight Ability, we do not define people by their diagnosis, their past, or their perceived complexity. We recognise the whole person — their culture, their story, their strengths, and their struggles.
                             </p>
+                            <p className="mt-4 text-lg text-muted-foreground">
+                            We are proud to support individuals from diverse cultural backgrounds and those who may have experienced stigma, forensic histories, trauma, or social exclusion. Our commitment is clear: we do not turn people away because their lives are complex.
+                            </p>
+                            
                         </div>
                     </AnimatedContent>
                 </div>

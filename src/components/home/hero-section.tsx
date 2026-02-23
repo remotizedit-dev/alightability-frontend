@@ -30,7 +30,7 @@ const HeroSection = () => {
                 </AnimatedContent>
                 <AnimatedContent distance={50} delay={0.3}>
                     <p className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-white/90">
-                        Maximise your independence and live a quality & happy life.
+                    A Registered Provider You Can Trust
                     </p>
                 </AnimatedContent>
                 <AnimatedContent distance={50} delay={0.6}>

@@ -50,10 +50,10 @@ const AboutPage = () => {
               <div>
                 <h2 className="text-3xl font-headline font-bold">Our Story</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                  Alight Ability was founded with a simple yet powerful vision: to create a healthcare experience that prioritizes patients above all else. From our humble beginnings as a small community clinic, we have grown into a leading institution known for clinical innovation and compassionate care.
+                Alight Ability was founded in 2022 with a simple but powerful belief — that every person with a disability carries a unique light within them. Our role is not to control that light, but to help alight it so it can shine brightly and confidently.
                 </p>
                 <p className="mt-4 text-lg text-muted-foreground">
-                  Our journey has been one of continuous learning and adaptation, always striving to integrate the latest medical advancements while maintaining the personal touch that defines us.
+                What began as a mission to deliver high-quality disability support grounded in compassion has grown into a registered NDIS provider operating across Sydney, Canberra, Adelaide, Melbourne, Brisbane, and Perth. While our footprint has expanded nationally, our heart remains deeply personal.
                 </p>
               </div>
             </div>
@@ -64,10 +64,10 @@ const AboutPage = () => {
               <div>
                 <h2 className="text-3xl font-headline font-bold">Mission & Vision</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                  <strong>Our Mission:</strong> To provide accessible, high-quality, and comprehensive healthcare services to our community, fostering a healthier future for all.
+                  <strong>Our Mission:</strong> We exist to provide support with love — because too often, care in the industry lacks the warmth, patience, and cultural understanding that people truly deserve.
                 </p>
                 <p className="mt-4 text-lg text-muted-foreground">
-                  <strong>Our Vision:</strong> To be a leader in patient-centered care, recognized for our clinical excellence, innovative research, and unwavering commitment to the well-being of every individual we serve.
+                  <strong>Our Vision:</strong> To become the most beloved NDIS support provider across Australia by embodying unparalleled dedication to compassionate, high-quality care.
                 </p>
               </div>
               {missionVisionImage && (
