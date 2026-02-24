@@ -32,29 +32,12 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const jobOpenings = [
   {
-    title: "Registered Nurse (RN)",
-    location: "Wellness City",
+    title: "Community Worker",
+    location: "Sydney Olympic Park NSW",
     type: "Full-time",
-    description: "Provide and coordinate patient care, educate patients about health conditions, and provide advice and emotional support to patients' family members.",
+    description: "As a Community Worker at Alight Ability, you will be responsible for providing direct support to individuals with disabilities, facilitating their access to community resources, and promoting their overall well-being. You will work collaboratively with clients, their families, and other service providers to create and implement personalized support plans that align with each individual's goals and aspirations.",
   },
-  {
-    title: "Medical Assistant",
-    location: "Wellness City",
-    type: "Full-time",
-    description: "Perform administrative and certain clinical duties under the direction of a physician. Administrative duties may include scheduling appointments, maintaining medical records, and billing.",
-  },
-  {
-    title: "Clinical Research Coordinator",
-    location: "Remote",
-    type: "Contract",
-    description: "Manage clinical trials and studies. You will be responsible for recruiting participants, managing data, and ensuring compliance with regulatory requirements.",
-  },
-  {
-    title: "Physical Therapist",
-    location: "Wellness City",
-    type: "Part-time",
-    description: "Help injured or ill people improve their movement and manage their pain. Therapists are often an important part of rehabilitation and treatment.",
-  },
+  
 ];
 
 const formSchema = z.object({
