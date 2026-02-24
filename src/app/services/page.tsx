@@ -75,10 +75,10 @@ const PageHeader = () => (
     alt="Alight Ability Banner" 
     fill className="object-cover" 
     data-ai-hint="company banner" />
-    <div className="absolute inset-0 bg-black/50" /> 
+    <div className="absolute inset-0 bg-black/10" /> 
     <div className="relative z-10 container mx-auto px-4 text-center"> 
-      <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Services</h1> 
-      <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90"> Learn about our journey, our mission, and the dedicated team committed to your health and well-being. </p> 
+      <h1 className="text-4xl md:text-5xl font-headline font-bold"></h1> 
+      <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">  </p> 
       </div> 
       </div> 
       </AnimatedContent>

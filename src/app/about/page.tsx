@@ -121,7 +121,7 @@ const AboutPage = () => {
                   <CardTitle className="font-headline">Improvement</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">We will constantly strive hard to improve our services and keep learning to provide the best service.</p>
+                  <p className="text-muted-foreground">We constantly strive hard to improve our services and keep learning to provide the best service.</p>
                 </CardContent>
               </Card>
             </AnimatedContent>
