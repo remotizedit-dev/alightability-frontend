@@ -11,12 +11,21 @@ const WhoWeAreSection = () => {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <AnimatedContent distance={50}>
                         <div>
-                            <h2 className="text-3xl md:text-4xl font-headline font-bold">Who We Are</h2>
+                            <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Commitment</h2>
                             <p className="mt-4 text-lg text-muted-foreground text-justify">
-                                We are a collective of passionate and dedicated professionals who believe in making a tangible difference. Our team brings together a diverse range of skills and experiences, united by a shared commitment to compassion, quality, and continuous improvement.
+                            We believe:
+	<br />•	Every person deserves respect.
+	<br />•	Every culture deserves understanding.
+	<br />•	Every struggle deserves compassion.
+	<br />•	Every individual deserves a chance to thrive.
+<br /><br />
+Alight Ability is more than a service provider — we are partners in your journey.
                             </p>
                             <p className="mt-4 text-lg text-muted-foreground text-justify">
-                                We work collaboratively to provide person-centered care that empowers our participants and enriches their lives, fostering an environment of trust and respect.
+                            Where others may see complexity, we see potential.
+<br />Where others may see limitation, we see ability.
+<br /><br />
+Alighting Your Ability — so you can shine.
                             </p>
                         </div>
                     </AnimatedContent>
