@@ -49,10 +49,10 @@ const AboutPage = () => {
               )}
               <div>
                 <h2 className="text-3xl font-headline font-bold">Our Story</h2>
-                <p className="mt-4 text-lg text-muted-foreground">
+                <p className="mt-4 text-lg text-muted-foreground text-justify">
                 Alight Ability was founded in 2022 with a simple but powerful belief — that every person with a disability carries a unique light within them. Our role is not to control that light, but to help alight it so it can shine brightly and confidently.
                 </p>
-                <p className="mt-4 text-lg text-muted-foreground">
+                <p className="mt-4 text-lg text-muted-foreground text-justify">
                 What began as a mission to deliver high-quality disability support grounded in compassion has grown into a registered NDIS provider operating across Sydney, Canberra, Adelaide, Melbourne, Brisbane, and Perth. While our footprint has expanded nationally, our heart remains deeply personal.
                 </p>
               </div>
