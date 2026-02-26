@@ -127,7 +127,7 @@ Owns a Car: ${values.ownCar}
 ${values.message}
     `.trim().replace(/^\s+/gm, '');
 
-    const mailtoLink = `mailto:remotizedit@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:contact@alightability.com.au?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailtoLink;
 

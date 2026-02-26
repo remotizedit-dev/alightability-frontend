@@ -1,3 +1,4 @@
+
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -44,10 +45,25 @@ const ContactPage = () => {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+    const subject = values.subject;
+    const body = `
+New contact message received.
+
+--- Details ---
+Name: ${values.name}
+Email: ${values.email}
+
+--- Message ---
+${values.message}
+    `.trim().replace(/^\s+/gm, '');
+
+    const mailtoLink = `mailto:contact@alightability.com.au?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+
     toast({
-      title: "Message Sent!",
-      description: "Thank you for contacting us. We will get back to you shortly.",
+      title: "Message Ready",
+      description: "Your email client has been opened to send your message.",
     });
     form.reset();
   }

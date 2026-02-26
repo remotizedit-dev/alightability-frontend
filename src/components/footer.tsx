@@ -34,6 +34,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/AlightAbility" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Facebook</a>
               <a href="https://www.instagram.com/alightability?igsh=NDZoYjcwczhmeHEz" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Instagram</a>
               <a href="https://www.linkedin.com/company/alight-ability/" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">LinkedIn</a>
+              <a href="https://share.google/XqDBCLEPDt3ESBILf" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Google</a>
             </nav>
           </div>
 
@@ -65,7 +66,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-xs text-primary-foreground/80">
           <p>Copyright &copy; {new Date().getFullYear()} Alight Ability. All Rights Reserved.</p>
           <p className="mt-2 text--primary-foreground/80">
-            Developed by RemotizedIT 
+            Developed by <a href='https://remotizedit.com'>RemotizedIT </a>
           </p>
         </div>
       </div>
