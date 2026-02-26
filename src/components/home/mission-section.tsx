@@ -25,10 +25,10 @@ const MissionSection = () => {
                     <AnimatedContent distance={50}>
                         <div>
                             <h2 className="text-3xl md:text-4xl font-headline font-bold">What Makes Us Different</h2>
-                            <p className="mt-4 text-lg text-muted-foreground">
+                            <p className="mt-4 text-lg text-muted-foreground text-justify">
                             At Alight Ability, we do not define people by their diagnosis, their past, or their perceived complexity. We recognise the whole person — their culture, their story, their strengths, and their struggles.
                             </p>
-                            <p className="mt-4 text-lg text-muted-foreground">
+                            <p className="mt-4 text-lg text-muted-foreground text-justify">
                             We are proud to support individuals from diverse cultural backgrounds and those who may have experienced stigma, forensic histories, trauma, or social exclusion. Our commitment is clear: we do not turn people away because their lives are complex.
                             </p>
                             

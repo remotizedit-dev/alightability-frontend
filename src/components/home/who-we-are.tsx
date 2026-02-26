@@ -12,10 +12,10 @@ const WhoWeAreSection = () => {
                     <AnimatedContent distance={50}>
                         <div>
                             <h2 className="text-3xl md:text-4xl font-headline font-bold">Who We Are</h2>
-                            <p className="mt-4 text-lg text-muted-foreground">
+                            <p className="mt-4 text-lg text-muted-foreground text-justify">
                                 We are a collective of passionate and dedicated professionals who believe in making a tangible difference. Our team brings together a diverse range of skills and experiences, united by a shared commitment to compassion, quality, and continuous improvement.
                             </p>
-                            <p className="mt-4 text-lg text-muted-foreground">
+                            <p className="mt-4 text-lg text-muted-foreground text-justify">
                                 We work collaboratively to provide person-centered care that empowers our participants and enriches their lives, fostering an environment of trust and respect.
                             </p>
                         </div>

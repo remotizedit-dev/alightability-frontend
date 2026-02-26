@@ -27,10 +27,10 @@ const AboutHighlight = () => {
                     <AnimatedContent distance={50} delay={0.2}>
                         <div>
                             <h2 className="text-3xl md:text-4xl font-headline font-bold">About Alight Ability</h2>
-                            <p className="mt-4 text-lg text-muted-foreground">
+                            <p className="mt-4 text-lg text-muted-foreground text-justify">
                             As a registered NDIS provider, we operate under strict compliance, governance, and quality assurance frameworks. Our team includes trained support workers, nurses, and qualified professionals who are committed to delivering safe and ethical services.
                             </p>
-                            <p className="mt-4 text-lg text-muted-foreground">
+                            <p className="mt-4 text-lg text-muted-foreground text-justify">
                             From personal care and high-intensity supports to SIL, STA, ILO, community access, and clinical nursing — our services are structured, professional, and participant-centred.
 
 But beyond systems and standards, what truly defines us is our human approach.
