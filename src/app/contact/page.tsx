@@ -177,7 +177,7 @@ const ContactPage = () => {
                     <MapPin className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold text-lg">Our Office</h3>
-                      <p className="text-muted-foreground">123 Health St, Wellness City, 12345</p>
+                      <p className="text-muted-foreground">Sydney, NSW 2000 Australia</p>
                       <Button asChild className="mt-1">
                         <a href="https://share.google/XqDBCLEPDt3ESBILf" target="_blank" rel="noopener noreferrer">
                           <MapPin className="mr-2" />

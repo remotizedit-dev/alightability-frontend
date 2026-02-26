@@ -64,10 +64,13 @@ const AboutPage = () => {
               <div>
                 <h2 className="text-3xl font-headline font-bold">Mission & Vision</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                  <strong>Our Mission:</strong> We exist to provide support with love — because too often, care in the industry lacks the warmth, patience, and cultural understanding that people truly deserve.
+                  <strong>Our Mission:</strong> At Alight Ability, our mission is to deliver exceptional, person-centered disability support grounded in empathy, integrity, and professionalism. We are committed to providing safe, high-quality care tailored to individual goals, embracing cultural diversity, and supporting people with complex needs without discrimination. We build trusted, long-term relationships with participants, families, and communities — ensuring every person feels valued, respected, and empowered to shine.
+
+
+
                 </p>
                 <p className="mt-4 text-lg text-muted-foreground">
-                  <strong>Our Vision:</strong> To become the most beloved NDIS support provider across Australia by embodying unparalleled dedication to compassionate, high-quality care.
+                  <strong>Our Vision:</strong> To become the most beloved and trusted NDIS support provider across Australia, recognised for delivering compassionate, culturally responsive, and high-quality care that empowers every individual to live with dignity, independence, and purpose.
                 </p>
               </div>
               {missionVisionImage && (

@@ -37,6 +37,18 @@ const jobOpenings = [
     type: "Full-time",
     description: "As a Community Worker at Alight Ability, you will be responsible for providing direct support to individuals with disabilities, facilitating their access to community resources, and promoting their overall well-being. You will work collaboratively with clients, their families, and other service providers to create and implement personalized support plans that align with each individual's goals and aspirations.",
   },
+  {
+    title: "Support Worker",
+    location: "Sydney/Canberra/Adelaide",
+    type: "Casual",
+    description: "Your work as a support worker can include but is not limited to: Social support, transport to and from day programs including extracurricular programs, assisting medications, Drop-in Support, supporting clients with complex needs, personal cares, domestic duties, meal preparation, using aids and equipment and social outings. Basically everything needed to care for our participants. If you have reservations about doing some work but not others then this is not the job for you.",
+  },
+  {
+    title: "Community & NDIS RN/EN",
+    location: "Sydney/Canberra/Adelaide",
+    type: "Casual",
+    description: "We are an upcoming Provider and we are growing rapidly so we constantly need RNs and Ens. We are looking for reliable and experienced Registered and Enrolled Nurse who are empathetic, committed and compassionate with a passion to constantly improve quality. We want team members who will always listen to our participants and value their opinion to promote independence and help them achieve their goals in their own way.Your work as a Nurse can include but is not limited to: Providing Community Nursing care to participants in their homes, Creating or helping with Nursing/High needs Assessments, Wound Care, Centre based care for high needs participants, personal care, Bowel care, Tracheostomy care, Catheter Care and helping to create detailed care plans or incontinence support plans.",
+  },
   
 ];
 

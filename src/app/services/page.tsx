@@ -8,7 +8,7 @@ const services = [
   {
     imageId: "service-personal-care",
     title: "Personal Care Services", 
-    description: "Our Personal Care services are delivered with respect, dignity, and clinical excellence. We support participants with daily living activities, including showering, dressing, mobility, medication assistance, and high-intensity supports such as PEG feeding, tracheostomy care, and complex bowel management. Our trained staff follow strict clinical protocols to ensure safety and comfort. At Alight Ability, no complexity is too great — we provide care with skill and heart.",
+    description: "Our Personal Care services are delivered with respect, dignity, and clinical excellence. We support participants with daily living activities, including showering, dressing, mobility, medication assistance. Our trained staff follow strict clinical protocols to ensure safety and comfort. At Alight Ability, no complexity is too great — we provide care with skill and heart.",
   },
   {
     imageId: "service-high-intensity",
@@ -57,8 +57,8 @@ const services = [
   },
   {
     imageId: "service-ilo",
-    title: "Individualized Living Options",
-    description: "Our Individualized Living Options supports help participants explore and establish customised living arrangements that suit their preferences and goals. We work collaboratively to design supports that promote independence while ensuring safety and stability. Options may include host arrangements, co-residency, or tailored in-home supports. We focus on building sustainable, long-term living solutions.",
+    title: "Individualised Living Options",
+    description: "Our Individualised Living Options supports help participants explore and establish customised living arrangements that suit their preferences and goals. We work collaboratively to design supports that promote independence while ensuring safety and stability. Options may include host arrangements, co-residency, or tailored in-home supports. We focus on building sustainable, long-term living solutions.",
   },
   {
     imageId: "service-wdo",

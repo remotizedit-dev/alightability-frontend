@@ -70,7 +70,7 @@ const services = [
     },
     {
         icon: <PersonStanding className="w-8 h-8 text-primary" />,
-        title: "Individualized Living Options",
+        title: "Individualised Living Options",
         description: "Our ILO supports help participants explore and establish customised living arrangements.",
     },
     {
@@ -109,7 +109,7 @@ const ServicesHighlight = () => {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Services</h2>
                         <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-                            We offer a wide range of services to meet your health needs, ensuring comprehensive care under one roof.
+                            We offer a wide range of services tailored to your care needs.
                         </p>
                     </div>
                 </AnimatedContent>

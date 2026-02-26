@@ -16,7 +16,7 @@ const values = [
     {
         icon: <TrendingUp className="w-8 h-8 text-primary" />,
         title: "Improvement",
-        description: "We will constantly strive hard to improve our services and keep learning to provide the best service.",
+        description: "We constantly strive hard to improve our services and keep learning to provide the best service.",
     },
 ];
 

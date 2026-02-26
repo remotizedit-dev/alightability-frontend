@@ -25,12 +25,12 @@ const HeroSection = () => {
             <div className="relative z-10 container mx-auto px-4">
                 <AnimatedContent distance={50}>
                     <h1 className="text-4xl md:text-6xl font-headline font-bold italic">
-                        <SplitText>Alight Your Ability</SplitText>
+                        <SplitText>Alighting Your Ability</SplitText>
                     </h1>
                 </AnimatedContent>
                 <AnimatedContent distance={50} delay={0.3}>
-                    <p className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-white/90">
-                    A Registered Provider You Can Trust
+                    <p className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-white/90 font-bold">
+                    Alight Ability
                     </p>
                 </AnimatedContent>
                 <AnimatedContent distance={50} delay={0.6}>
