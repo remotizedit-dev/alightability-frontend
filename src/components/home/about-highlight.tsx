@@ -8,7 +8,7 @@ const AboutHighlight = () => {
     const aboutImage = PlaceHolderImages.find(p => p.id === 'about-team');
 
     return (
-        <section id="about" className="py-16 lg:py-24 bg-background">
+        <section id="about" className="py-16 lg:py-24 bg-secondary">
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     {aboutImage && (

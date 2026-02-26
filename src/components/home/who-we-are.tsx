@@ -13,7 +13,7 @@ const WhoWeAreSection = () => {
                         <div>
                             <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Commitment</h2>
                             <p className="mt-4 text-lg text-muted-foreground text-justify">
-                            We believe:
+                            We believe: <br />
 	<br />•	Every person deserves respect.
 	<br />•	Every culture deserves understanding.
 	<br />•	Every struggle deserves compassion.
@@ -23,7 +23,7 @@ Alight Ability is more than a service provider — we are partners in your journ
                             </p>
                             <p className="mt-4 text-lg text-muted-foreground text-justify">
                             Where others may see complexity, we see potential.
-<br />Where others may see limitation, we see ability.
+Where others may see limitation, we see ability.
 <br /><br />
 Alighting Your Ability — so you can shine.
                             </p>

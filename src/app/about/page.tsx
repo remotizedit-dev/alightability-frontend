@@ -18,7 +18,7 @@ const PageHeader = () => (
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-headline font-bold italic">About Alight Ability</h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
-          Learn about our journey, our mission, and the dedicated team committed to your health and well-being.
+          Learn about our journey, mission, and the dedicated team committed to your well-being.
         </p>
       </div>
     </div>
@@ -63,13 +63,13 @@ const AboutPage = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center mt-16 lg:mt-24">
               <div>
                 <h2 className="text-3xl font-headline font-bold">Mission & Vision</h2>
-                <p className="mt-4 text-lg text-muted-foreground">
+                <p className="mt-4 text-lg text-muted-foreground text-justify">
                   <strong>Our Mission:</strong> At Alight Ability, our mission is to deliver exceptional, person-centered disability support grounded in empathy, integrity, and professionalism. We are committed to providing safe, high-quality care tailored to individual goals, embracing cultural diversity, and supporting people with complex needs without discrimination. We build trusted, long-term relationships with participants, families, and communities — ensuring every person feels valued, respected, and empowered to shine.
 
 
 
                 </p>
-                <p className="mt-4 text-lg text-muted-foreground">
+                <p className="mt-4 text-lg text-muted-foreground text-justify">
                   <strong>Our Vision:</strong> To become the most beloved and trusted NDIS support provider across Australia, recognised for delivering compassionate, culturally responsive, and high-quality care that empowers every individual to live with dignity, independence, and purpose.
                 </p>
               </div>
