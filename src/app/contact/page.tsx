@@ -70,7 +70,7 @@ ${values.message}
       <AnimatedContent distance={50}>
           <div className="relative py-20 lg:py-32 text-white">
               <Image
-                  src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771248870/Frame_938_hzubft.png"
+                  src="https://img.freepik.com/premium-photo/website-internet-contact-us-page-concept-with-phone-email-mail-icons-symbol-telephone-mail-address-website-page-contact-us-web-banner-copy-space-grey-background_256259-3515.jpg"
                   alt="Contact Us Banner"
                   fill
                   className="object-cover"
