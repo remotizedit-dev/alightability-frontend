@@ -19,7 +19,6 @@ import { useToast } from "@/hooks/use-toast";
 import { Mail, Phone, MapPin } from "lucide-react";
 import AnimatedContent from "@/components/ui/animated-content";
 import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Link from "next/link";
 
 const formSchema = z.object({
@@ -28,8 +27,6 @@ const formSchema = z.object({
   subject: z.string().min(5, "Subject must be at least 5 characters."),
   message: z.string().min(10, "Message must be at least 10 characters."),
 });
-
-const contactBannerImage = PlaceHolderImages.find(p => p.id === 'contact-banner');
 
 const ContactPage = () => {
   const { toast } = useToast();
@@ -70,56 +67,54 @@ ${values.message}
 
   return (
     <>
-      {contactBannerImage && (
-        <AnimatedContent distance={50}>
-            <div className="relative py-20 lg:py-32 text-white">
-                <Image
-                    src={contactBannerImage.imageUrl}
-                    alt={contactBannerImage.description}
-                    fill
-                    className="object-cover"
-                    data-ai-hint={contactBannerImage.imageHint}
-                />
-                <div className="absolute inset-0 bg-black/50" />
-                <div className="relative z-10 container mx-auto px-4 text-center">
-                    <h1 className="text-4xl md:text-5xl font-headline font-bold italic">Get In Touch</h1>
-                    <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
-                        We're here to help. For any questions about our services please reach out.
-                    </p>
-                    <AnimatedContent distance={50} delay={0.6}>
-  <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-    
-    <Button
-      asChild
-      size="lg"
-      className="w-full max-w-sm sm:w-64 h-12 flex items-center justify-center"
-    >
-      <Link href="tel:1300725611" className="flex items-center justify-center w-full">
-        <Phone className="mr-2" />
-        Call 1300 725 611
-      </Link>
-    </Button>
+      <AnimatedContent distance={50}>
+          <div className="relative py-20 lg:py-32 text-white">
+              <Image
+                  src="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/v1771248870/Frame_938_hzubft.png"
+                  alt="Contact Us Banner"
+                  fill
+                  className="object-cover"
+                  data-ai-hint="telephone contact"
+              />
+              <div className="absolute inset-0 bg-black/50" />
+              <div className="relative z-10 container mx-auto px-4 text-center">
+                  <h1 className="text-4xl md:text-5xl font-headline font-bold italic">Get In Touch</h1>
+                  <p className="mt-4 max-w-3xl mx-auto text-lg text-white/90">
+                      We're here to help. For any questions about our services please reach out.
+                  </p>
+                  <AnimatedContent distance={50} delay={0.6}>
+<div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+  
+  <Button
+    asChild
+    size="lg"
+    className="w-full max-w-sm sm:w-64 h-12 flex items-center justify-center"
+  >
+    <Link href="tel:1300725611" className="flex items-center justify-center w-full">
+      <Phone className="mr-2" />
+      Call 1300 725 611
+    </Link>
+  </Button>
 
-    <Button
-      asChild
-      size="lg"
-      className="w-full max-w-sm sm:w-64 h-12 border-white text-white flex items-center justify-center"
+  <Button
+    asChild
+    size="lg"
+    className="w-full max-w-sm sm:w-64 h-12 border-white text-white flex items-center justify-center"
+  >
+    <a
+      href="mailto:contact@alightability.com.au"
+      className="flex items-center justify-center w-full"
     >
-      <a
-        href="mailto:contact@alightability.com.au"
-        className="flex items-center justify-center w-full"
-      >
-        <Mail className="mr-2" />
-        contact@alightability.com.au
-      </a>
-    </Button>
+      <Mail className="mr-2" />
+      contact@alightability.com.au
+    </a>
+  </Button>
 
-  </div>
+</div>
 </AnimatedContent>
-                </div>
-            </div>
+              </div>
+          </div>
 </AnimatedContent>
-      )}
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4">
           <AnimatedContent distance={50} delay={0.2}>
@@ -236,3 +231,5 @@ ${values.message}
 };
 
 export default ContactPage;
+
+    
