@@ -77,9 +77,9 @@ const PrivacyPolicyPage = () => {
                                 <br />
                                 Alight Ability
                                 <br />
-                                123 Health St, Wellness City, 12345
+                                Phone: 1300 725 611
                                 <br />
-                                contact@alightability.com
+                                Email: contact@alightability.com.au
                             </p>
                         </AnimatedContent>
                     </div>
