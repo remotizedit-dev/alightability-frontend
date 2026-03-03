@@ -24,7 +24,7 @@ const Footer = () => {
             <nav className="flex flex-col space-y-2 text-sm">
               <Link href="/privacy-policy" className="hover:text-primary-foreground/80 transition-colors">Privacy Policy</Link>
               <Link href="/join-us" className="hover:text-primary-foreground/80 transition-colors">Join Us</Link>
-              <a href="https://res.cloudinary.com/dyp8op8ov/image/upload/dbe4902e-1_ndfxhx.png" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Statement</a>
+              <a href="https://res.cloudinary.com/dyp8op8ov/image/upload/f_auto,q_auto,w_auto/dbe4902e-1_ndfxhx.png" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Child Safety Statement</a>
             </nav>
           </div>
 
