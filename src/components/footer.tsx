@@ -24,6 +24,7 @@ const Footer = () => {
             <nav className="flex flex-col space-y-2 text-sm">
               <Link href="/privacy-policy" className="hover:text-primary-foreground/80 transition-colors">Privacy Policy</Link>
               <Link href="/join-us" className="hover:text-primary-foreground/80 transition-colors">Join Us</Link>
+              <a href="https://res.cloudinary.com/dyp8op8ov/image/upload/dbe4902e-1_ndfxhx.png" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground/80 transition-colors">Statement</a>
             </nav>
           </div>
 
@@ -52,7 +53,7 @@ const Footer = () => {
                   </a>
                 </Button>
                 <Button asChild variant="ghost" className="justify-start p-1 h-auto hover:bg-primary-foreground/10">
-                  <a href="mailto:contact@alightability.com">
+                  <a href="mailto:contact@alightability.com.au">
                     <Mail className="mr-2 h-4 w-4" />
                     <span>contact@alightability.com.au</span>
                   </a>
